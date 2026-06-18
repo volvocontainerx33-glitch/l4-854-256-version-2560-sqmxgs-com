@@ -1,16 +1,9 @@
-﻿# website-upload-854-256
+# 国产剧集热播榜
 
-Batch 256 of 50. Contains extracted static website versions. The original zip files are not committed.
+这是根据上传素材生成的纯静态电影网站。
 
-| Directory | Source zip |
-| --- | --- |
-| version-2551 | project-bolt-sb1-otthsdhg - 副本-chatgpt (1).zip |
-| version-2552 | project-bolt-sb1-otthsdhg-chatgpt (1).zip |
-| version-2553 | project-bolt-sb1-otthsdhg-chatgpt (1)__1.zip |
-| version-2554 | project-bolt-sb1-oxdpwxpo - 副本-chatgpt (1).zip |
-| version-2555 | project-bolt-sb1-oxdpwxpo-chatgpt (1).zip |
-| version-2556 | project-bolt-sb1-oxdpwxpo-chatgpt (1)__1.zip |
-| version-2557 | project-bolt-sb1-oxomp4bw - 副本-chatgpt (1).zip |
-| version-2558 | project-bolt-sb1-oxomp4bw-chatgpt (1).zip |
-| version-2559 | project-bolt-sb1-oxomp4bw-chatgpt (1)__1.zip |
-| version-2560 | project-bolt-sb1-oxshzscp - 副本-chatgpt (1).zip |
+- 影片数据：2000 条
+- 独立详情页：2000 个
+- 独立分类页：10 个
+- 封面图片：未打包，请部署后将 1.jpg 到 150.jpg 放在网站顶级目录
+- 播放器：详情页使用 HLS/m3u8 播放源，并通过 assets/js/player.js 初始化
