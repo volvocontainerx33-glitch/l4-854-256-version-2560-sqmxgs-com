@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+    <html lang="zh-CN">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>分类浏览-精选电影-高清电影免费在线观看</title>
+      <meta name="description" content="精选电影分类总览，按题材整理热门和经典影片，支持继续进入独立分类页浏览。">
+      <meta name="keywords" content="精选电影,电影合集,高分电影,热门影片,高清电影,电影观看">
+      <link rel="stylesheet" href="./assets/css/style.css">
+
+      <script src="./assets/js/search-index.js" defer></script>
+<script src="./assets/js/site.js" defer></script>
+    </head>
+    <body>
+      <header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="./index.html" aria-label="精选电影">
+      <span class="brand-mark">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M5 4h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Z"></path>
+          <path d="m10 9 5 3-5 3V9Z"></path>
+        </svg>
+      </span>
+      <span>精选电影</span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a class="nav-link" href="./index.html">首页</a>
+      <div class="nav-dropdown">
+        <a class="nav-link is-active" href="./categories.html">分类</a>
+        <div class="dropdown-menu">
+          <a href="./category-drama.html">剧情精选</a><a href="./category-comedy.html">喜剧电影</a><a href="./category-action.html">动作冒险</a><a href="./category-romance.html">爱情情感</a><a href="./category-suspense.html">悬疑犯罪</a><a href="./category-scifi.html">科幻灾难</a><a href="./category-fantasy.html">奇幻古装</a><a href="./category-horror.html">恐怖惊悚</a>
+        </div>
+      </div>
+      <a class="nav-link" href="./ranking.html">热播榜单</a>
+      <button class="nav-link nav-button" type="button" data-search-open>搜索</button>
+    </nav>
+    <button class="mobile-toggle" type="button" data-mobile-toggle aria-label="打开菜单" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <div class="mobile-panel" data-mobile-panel>
+    <a href="./index.html">首页</a>
+    <a href="./categories.html">分类总览</a>
+    <a href="./ranking.html">热播榜单</a>
+    <div class="mobile-category-list">
+      <a href="./category-drama.html">剧情精选</a><a href="./category-comedy.html">喜剧电影</a><a href="./category-action.html">动作冒险</a><a href="./category-romance.html">爱情情感</a><a href="./category-suspense.html">悬疑犯罪</a><a href="./category-scifi.html">科幻灾难</a><a href="./category-fantasy.html">奇幻古装</a><a href="./category-horror.html">恐怖惊悚</a><a href="./category-family.html">家庭治愈</a><a href="./category-history.html">历史战争</a><a href="./category-youth.html">青春校园</a><a href="./category-classic.html">经典片单</a>
+    </div>
+    <button type="button" data-search-open>搜索影片</button>
+  </div>
+</header>
+      <div class="search-modal" id="search-modal" aria-hidden="true">
+      <div class="search-backdrop" data-search-close></div>
+      <section class="search-panel" aria-label="影片搜索">
+        <div class="search-head">
+          <div class="search-title">影片搜索</div>
+          <button class="search-close" type="button" data-search-close aria-label="关闭搜索">×</button>
+        </div>
+        <div class="search-box">
+          <input id="global-search-input" type="search" placeholder="搜索片名、标签、地区" autocomplete="off">
+          <div class="search-selects">
+            <select id="global-search-category">
+              <option value="">分类</option>
+<option value="drama">剧情精选</option>
+<option value="comedy">喜剧电影</option>
+<option value="action">动作冒险</option>
+<option value="romance">爱情情感</option>
+<option value="suspense">悬疑犯罪</option>
+<option value="scifi">科幻灾难</option>
+<option value="fantasy">奇幻古装</option>
+<option value="horror">恐怖惊悚</option>
+<option value="family">家庭治愈</option>
+<option value="history">历史战争</option>
+<option value="youth">青春校园</option>
+<option value="classic">经典片单</option>
+            </select>
+            <select id="global-search-region">
+              <option value="">地区</option>
+<option value="法国 / 比利时">法国 / 比利时</option>
+<option value="日本">日本</option>
+<option value="英国">英国</option>
+<option value="美国">美国</option>
+<option value="墨西哥">墨西哥</option>
+<option value="中国大陆">中国大陆</option>
+<option value="中国香港">中国香港</option>
+<option value="西班牙">西班牙</option>
+            </select>
+          </div>
+        </div>
+        <div class="search-results" id="global-search-results"></div>
+      </section>
+    </div>
+      <main>
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Movie Categories</p>
+      <h1>精选电影分类</h1>
+      <p>按剧情、喜剧、动作、爱情、悬疑、科幻、奇幻、恐怖等方向整理片单，每个分类页面都可继续浏览影片详情。</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="category-grid">
+        <a class="category-tile" href="./category-drama.html">
+  <img src="./2.jpg" alt="剧情精选" loading="lazy">
+  <div class="category-tile-content">
+    <h3>剧情精选</h3>
+    <p>收录人物命运、社会现实、家庭情感与文艺表达兼具的剧情影片。</p>
+  </div>
+</a> <a class="category-tile" href="./category-comedy.html">
+  <img src="./1.jpg" alt="喜剧电影" loading="lazy">
+  <div class="category-tile-content">
+    <h3>喜剧电影</h3>
+    <p>精选轻松、荒诞、都市、家庭与黑色幽默题材，适合放松浏览。</p>
+  </div>
+</a> <a class="category-tile" href="./category-action.html">
+  <img src="./4.jpg" alt="动作冒险" loading="lazy">
+  <div class="category-tile-content">
+    <h3>动作冒险</h3>
+    <p>集合动作、武侠、冒险、警匪和硬派对抗题材，节奏鲜明。</p>
+  </div>
+</a> <a class="category-tile" href="./category-romance.html">
+  <img src="./33.jpg" alt="爱情情感" loading="lazy">
+  <div class="category-tile-content">
+    <h3>爱情情感</h3>
+    <p>围绕爱情、婚姻、都市关系与情感抉择展开的热门影片合集。</p>
+  </div>
+</a> <a class="category-tile" href="./category-suspense.html">
+  <img src="./8.jpg" alt="悬疑犯罪" loading="lazy">
+  <div class="category-tile-content">
+    <h3>悬疑犯罪</h3>
+    <p>涵盖推理、犯罪、谍战、调查和反转叙事，适合沉浸式观看。</p>
+  </div>
+</a> <a class="category-tile" href="./category-scifi.html">
+  <img src="./11.jpg" alt="科幻灾难" loading="lazy">
+  <div class="category-tile-content">
+    <h3>科幻灾难</h3>
+    <p>聚焦未来想象、太空探索、末日危机和科技寓言等类型影片。</p>
+  </div>
+</a> <a class="category-tile" href="./category-fantasy.html">
+  <img src="./7.jpg" alt="奇幻古装" loading="lazy">
+  <div class="category-tile-content">
+    <h3>奇幻古装</h3>
+    <p>奇幻、玄幻、穿越、古装和神话设定交织，兼具想象力与戏剧性。</p>
+  </div>
+</a> <a class="category-tile" href="./category-horror.html">
+  <img src="./14.jpg" alt="恐怖惊悚" loading="lazy">
+  <div class="category-tile-content">
+    <h3>恐怖惊悚</h3>
+    <p>收录恐怖、惊悚、灵异、超自然与心理压迫感突出的影片。</p>
+  </div>
+</a> <a class="category-tile" href="./category-family.html">
+  <img src="./9.jpg" alt="家庭治愈" loading="lazy">
+  <div class="category-tile-content">
+    <h3>家庭治愈</h3>
+    <p>温情、亲情、成长、治愈和合家欢题材组成的暖心片单。</p>
+  </div>
+</a> <a class="category-tile" href="./category-history.html">
+  <img src="./10.jpg" alt="历史战争" loading="lazy">
+  <div class="category-tile-content">
+    <h3>历史战争</h3>
+    <p>历史、战争、传记、年代与抗争叙事交汇，适合关注厚重题材。</p>
+  </div>
+</a> <a class="category-tile" href="./category-youth.html">
+  <img src="./25.jpg" alt="青春校园" loading="lazy">
+  <div class="category-tile-content">
+    <h3>青春校园</h3>
+    <p>校园、青春、友情、运动和少年成长故事构成清爽片单。</p>
+  </div>
+</a> <a class="category-tile" href="./category-classic.html">
+  <img src="./16.jpg" alt="经典片单" loading="lazy">
+  <div class="category-tile-content">
+    <h3>经典片单</h3>
+    <p>汇聚怀旧、经典、艺术、音乐、纪录和风格鲜明的精选影片。</p>
+  </div>
+</a>
+      </div>
+    </div>
+  </section>
+</main>
+      <footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <a class="footer-brand" href="./index.html">精选电影</a>
+      <p>高分、热门和经典影片合集，按类型片单浏览更多精彩内容。</p>
+    </div>
+    <nav class="footer-links" aria-label="底部导航">
+      <a href="./index.html">首页</a>
+      <a href="./categories.html">分类</a>
+      <a href="./ranking.html">榜单</a>
+      <a href="./category-drama.html">剧情精选</a><a href="./category-comedy.html">喜剧电影</a><a href="./category-action.html">动作冒险</a><a href="./category-romance.html">爱情情感</a><a href="./category-suspense.html">悬疑犯罪</a><a href="./category-scifi.html">科幻灾难</a>
+    </nav>
+  </div>
+</footer>
+      <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+    </body>
+    </html>

@@ -1,0 +1,2979 @@
+<!DOCTYPE html>
+    <html lang="zh-CN">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>经典片单-精选电影-高清电影免费在线观看</title>
+      <meta name="description" content="汇聚怀旧、经典、艺术、音乐、纪录和风格鲜明的精选影片。">
+      <meta name="keywords" content="经典片单,精选电影,高清电影,热门影片,电影合集">
+      <link rel="stylesheet" href="./assets/css/style.css">
+
+      <script src="./assets/js/search-index.js" defer></script>
+<script src="./assets/js/site.js" defer></script>
+    </head>
+    <body>
+      <header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="./index.html" aria-label="精选电影">
+      <span class="brand-mark">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M5 4h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Z"></path>
+          <path d="m10 9 5 3-5 3V9Z"></path>
+        </svg>
+      </span>
+      <span>精选电影</span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a class="nav-link" href="./index.html">首页</a>
+      <div class="nav-dropdown">
+        <a class="nav-link is-active" href="./categories.html">分类</a>
+        <div class="dropdown-menu">
+          <a href="./category-drama.html">剧情精选</a><a href="./category-comedy.html">喜剧电影</a><a href="./category-action.html">动作冒险</a><a href="./category-romance.html">爱情情感</a><a href="./category-suspense.html">悬疑犯罪</a><a href="./category-scifi.html">科幻灾难</a><a href="./category-fantasy.html">奇幻古装</a><a href="./category-horror.html">恐怖惊悚</a>
+        </div>
+      </div>
+      <a class="nav-link" href="./ranking.html">热播榜单</a>
+      <button class="nav-link nav-button" type="button" data-search-open>搜索</button>
+    </nav>
+    <button class="mobile-toggle" type="button" data-mobile-toggle aria-label="打开菜单" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <div class="mobile-panel" data-mobile-panel>
+    <a href="./index.html">首页</a>
+    <a href="./categories.html">分类总览</a>
+    <a href="./ranking.html">热播榜单</a>
+    <div class="mobile-category-list">
+      <a href="./category-drama.html">剧情精选</a><a href="./category-comedy.html">喜剧电影</a><a href="./category-action.html">动作冒险</a><a href="./category-romance.html">爱情情感</a><a href="./category-suspense.html">悬疑犯罪</a><a href="./category-scifi.html">科幻灾难</a><a href="./category-fantasy.html">奇幻古装</a><a href="./category-horror.html">恐怖惊悚</a><a href="./category-family.html">家庭治愈</a><a href="./category-history.html">历史战争</a><a href="./category-youth.html">青春校园</a><a href="./category-classic.html">经典片单</a>
+    </div>
+    <button type="button" data-search-open>搜索影片</button>
+  </div>
+</header>
+      <div class="search-modal" id="search-modal" aria-hidden="true">
+      <div class="search-backdrop" data-search-close></div>
+      <section class="search-panel" aria-label="影片搜索">
+        <div class="search-head">
+          <div class="search-title">影片搜索</div>
+          <button class="search-close" type="button" data-search-close aria-label="关闭搜索">×</button>
+        </div>
+        <div class="search-box">
+          <input id="global-search-input" type="search" placeholder="搜索片名、标签、地区" autocomplete="off">
+          <div class="search-selects">
+            <select id="global-search-category">
+              <option value="">分类</option>
+<option value="drama">剧情精选</option>
+<option value="comedy">喜剧电影</option>
+<option value="action">动作冒险</option>
+<option value="romance">爱情情感</option>
+<option value="suspense">悬疑犯罪</option>
+<option value="scifi">科幻灾难</option>
+<option value="fantasy">奇幻古装</option>
+<option value="horror">恐怖惊悚</option>
+<option value="family">家庭治愈</option>
+<option value="history">历史战争</option>
+<option value="youth">青春校园</option>
+<option value="classic">经典片单</option>
+            </select>
+            <select id="global-search-region">
+              <option value="">地区</option>
+<option value="法国 / 比利时">法国 / 比利时</option>
+<option value="日本">日本</option>
+<option value="英国">英国</option>
+<option value="美国">美国</option>
+<option value="墨西哥">墨西哥</option>
+<option value="中国大陆">中国大陆</option>
+<option value="中国香港">中国香港</option>
+<option value="西班牙">西班牙</option>
+            </select>
+          </div>
+        </div>
+        <div class="search-results" id="global-search-results"></div>
+      </section>
+    </div>
+      <main>
+      <section class="page-hero">
+        <div class="container">
+          <p class="eyebrow">Category</p>
+          <h1>经典片单</h1>
+          <p>汇聚怀旧、经典、艺术、音乐、纪录和风格鲜明的精选影片。</p>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <div class="filter-bar">
+            <input type="search" data-card-filter placeholder="搜索片名、标签或地区" autocomplete="off">
+            <a href="./categories.html">返回分类</a>
+          </div>
+          <div class="movie-grid large-grid">
+            <article class="movie-card" data-filter-card data-title="超级性爱" data-tags="情色 哲学 实验 两性 艺术" data-region="法国" data-category="classic">
+  <a href="./movie-0016.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./16.jpg" alt="超级性爱" loading="lazy">
+      <span class="year-pill">2025</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>超级性爱</h3>
+      <p>一对开放式关系情侣参加了一项科学研究，却发现“超级性爱”背后是情感的黑洞。</p>
+      <div class="card-meta">
+        <span>剧情</span>
+        <span>法国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="锦绣良缘粤语" data-tags="丝绸业 广府文化 家族恩怨" data-region="中国香港" data-category="classic">
+  <a href="./movie-0026.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./26.jpg" alt="锦绣良缘粤语" loading="lazy">
+      <span class="year-pill">2024</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>锦绣良缘粤语</h3>
+      <p>顺德丝绸世家四姐妹，在抗战沦陷期用一匹“永不褪色”的香云纱，上演了一场瞒天过海的救亡大戏。</p>
+      <div class="card-meta">
+        <span>剧情 / 历史 / 商战</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="比卡超与宠物小精灵合唱队" data-tags="合唱 治愈 神奇宝贝 友情 节奏游戏" data-region="日本" data-category="classic">
+  <a href="./movie-0041.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./41.jpg" alt="比卡超与宠物小精灵合唱队" loading="lazy">
+      <span class="year-pill">2023</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>比卡超与宠物小精灵合唱队</h3>
+      <p>当比卡超意外获得一支能指挥所有精灵歌唱的神奇指挥棒，一场拯救音乐森林的跨物种合唱大赛开始了。</p>
+      <div class="card-meta">
+        <span>音乐， 奇幻， 冒险</span>
+        <span>日本</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="佐贺偶像是传奇 卷土重来" data-tags="丧尸偶像 第二季 地域振兴" data-region="日本" data-category="classic">
+  <a href="./movie-0042.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./42.jpg" alt="佐贺偶像是传奇 卷土重来" loading="lazy">
+      <span class="year-pill">2025</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>佐贺偶像是传奇 卷土重来</h3>
+      <p>为了拯救佐贺县滑落的旅游经济，传奇丧尸偶像法兰秀秀决定举办一场史上最疯狂的全国巡演。</p>
+      <div class="card-meta">
+        <span>喜剧 / 音乐 / 奇幻</span>
+        <span>日本</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="智恵子抄" data-tags="真实人物改编 诗人 艺术家之恋 悲剧美学" data-region="日本" data-category="classic">
+  <a href="./movie-0059.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./59.jpg" alt="智恵子抄" loading="lazy">
+      <span class="year-pill">1967</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>智恵子抄</h3>
+      <p>日本著名诗人高村光太郎与妻子智恵子之间跨越生死的爱情故事，智恵子发疯后，光太郎用雕刻和诗歌守护她最后的岁月。</p>
+      <div class="card-meta">
+        <span>剧情、传记、爱情</span>
+        <span>日本</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="光影之妓" data-tags="默片 巴黎 妓女 画家 存在主义" data-region="法国" data-category="classic">
+  <a href="./movie-0064.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./64.jpg" alt="光影之妓" loading="lazy">
+      <span class="year-pill">2018</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>光影之妓</h3>
+      <p>1920年代巴黎，一名妓女的身体被多位画家描摹，但没有一幅画能留住她的灵魂。</p>
+      <div class="card-meta">
+        <span>剧情, 情色, 艺术</span>
+        <span>法国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="惟有蓝调" data-tags="爵士乐 爱情 艺术家 迷失 浪漫" data-region="美国" data-category="classic">
+  <a href="./movie-0074.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./74.jpg" alt="惟有蓝调" loading="lazy">
+      <span class="year-pill">2014</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>惟有蓝调</h3>
+      <p>一位才华横溢的爵士乐手，在爱情与毒瘾的蓝调中挣扎，试图找回属于自己的音符。</p>
+      <div class="card-meta">
+        <span>剧情 / 音乐</span>
+        <span>美国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="琴韵情深" data-tags="钢琴 自闭症 父女" data-region="中国大陆" data-category="classic">
+  <a href="./movie-0083.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./83.jpg" alt="琴韵情深" loading="lazy">
+      <span class="year-pill">2025</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>琴韵情深</h3>
+      <p>一个木讷的钢琴调律师，发现自闭症女儿能听出钢琴万分之一赫兹的误差。</p>
+      <div class="card-meta">
+        <span>剧情, 音乐</span>
+        <span>中国大陆</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 南方来信 猎屠 丁丁和太阳神庙 爸爸去哪儿第三季 续·社长千一夜 无名份的浪漫 喂，太宰 百姓贵族 危急关头 圣诞怪杰 关键投票 飞鹰粤语 国王大卫 竹马钢琴师 燃烧岁月粤语 荒野杀机 忽然之间 侏罗纪世界：统霸天下序章 拜托了妈妈 她不土，她是我妹妹" data-tags="根据片名判断" data-region="根据片名判断" data-category="classic">
+  <a href="./movie-0101.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./101.jpg" alt="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 南方来信 猎屠 丁丁和太阳神庙 爸爸去哪儿第三季 续·社长千一夜 无名份的浪漫 喂，太宰 百姓贵族 危急关头 圣诞怪杰 关键投票 飞鹰粤语 国王大卫 竹马钢琴师 燃烧岁月粤语 荒野杀机 忽然之间 侏罗纪世界：统霸天下序章 拜托了妈妈 她不土，她是我妹妹" loading="lazy">
+      <span class="year-pill">2024</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 南方来信 猎屠 丁丁和太阳神庙 爸爸去哪儿第三季 续·社长千一夜 无名份的浪漫 喂，太宰 百姓贵族 危急关头 圣诞怪杰 关键投票 飞鹰粤语 国王大卫 竹马钢琴师 燃烧岁月粤语 荒野杀机 忽然之间 侏罗纪世界：统霸天下序章 拜托了妈妈 她不土，她是我妹妹</h3>
+      <p>（一句话剧情钩子，20~40 字左右，简洁但有记忆点）</p>
+      <div class="card-meta">
+        <span>根据片名判断</span>
+        <span>根据片名判断</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="新浪潮" data-tags="乐队 中年危机 致敬" data-region="法国" data-category="classic">
+  <a href="./movie-0106.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./106.jpg" alt="新浪潮" loading="lazy">
+      <span class="year-pill">2025</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>新浪潮</h3>
+      <p>曾经叱咤风云的80年代电子乐主唱，如今成了超市促销员，一场葬礼让他决定重组老年乐队。</p>
+      <div class="card-meta">
+        <span>剧情, 音乐</span>
+        <span>法国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="人与兽" data-tags="黑白电影 人性 拷问 经典" data-region="苏联" data-category="classic">
+  <a href="./movie-0122.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./122.jpg" alt="人与兽" loading="lazy">
+      <span class="year-pill">1962</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>人与兽</h3>
+      <p>二战结束后十几年，一位曾经的苏联战俘试图回归正常社会，但他发现自己和身边的人，都在逐渐退化为“兽”。</p>
+      <div class="card-meta">
+        <span>剧情, 战争</span>
+        <span>苏联</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="生命如歌" data-tags="亲情 音乐 治愈 传承 成长" data-region="中国大陆" data-category="classic">
+  <a href="./movie-0169.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./19.jpg" alt="生命如歌" loading="lazy">
+      <span class="year-pill">2021</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>生命如歌</h3>
+      <p>一位失意的中年音乐人带着患有听力障碍的女儿，踏上寻访民间歌谣的旅途，却意外治愈了自己。</p>
+      <div class="card-meta">
+        <span>剧情 / 家庭</span>
+        <span>中国大陆</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="香闺秘艳" data-tags="港产情色 民国 交际花 悲剧 经典修复" data-region="中国香港" data-category="classic">
+  <a href="./movie-0176.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./26.jpg" alt="香闺秘艳" loading="lazy">
+      <span class="year-pill">1992</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>香闺秘艳</h3>
+      <p>1930年代上海滩头牌交际花玉观音，在三个男人之间周旋了十年，最后发现他们都爱上了同一个她伪装出来的假人。</p>
+      <div class="card-meta">
+        <span>情色 / 剧情 / 爱情</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="隐藏的大明星" data-tags="蒙面歌手 家暴反抗 母女情深 阿米尔汗" data-region="印度" data-category="classic">
+  <a href="./movie-0189.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./39.jpg" alt="隐藏的大明星" loading="lazy">
+      <span class="year-pill">2017</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>隐藏的大明星</h3>
+      <p>古尔冈少女蒙面上传唱歌视频爆红，却要用巨星身份对抗家暴父亲。</p>
+      <div class="card-meta">
+        <span>剧情 / 音乐</span>
+        <span>印度</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="歌手2025" data-tags="AI 伦理 选秀" data-region="中国大陆" data-category="classic">
+  <a href="./movie-0194.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./44.jpg" alt="歌手2025" loading="lazy">
+      <span class="year-pill">2025</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>歌手2025</h3>
+      <p>2025年，AI歌手与人类歌手同台竞技，评委却是一群不懂音乐的养老院老人。</p>
+      <div class="card-meta">
+        <span>音乐/科幻</span>
+        <span>中国大陆</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="雷雨之夜粤语" data-tags="台风夜 电梯困人 身份反转 密闭空间" data-region="中国香港" data-category="classic">
+  <a href="./movie-0202.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./52.jpg" alt="雷雨之夜粤语" loading="lazy">
+      <span class="year-pill">2025</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>雷雨之夜粤语</h3>
+      <p>台风夜，一栋旧楼的电梯因故障困住五人，随着雷雨加剧，他们发现其中一人是连环杀手。</p>
+      <div class="card-meta">
+        <span>悬疑惊悚</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="跳跃生命线粤语" data-tags="救护员 港剧 急救 生死 马德钟" data-region="中国香港" data-category="classic">
+  <a href="./movie-0213.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./63.jpg" alt="跳跃生命线粤语" loading="lazy">
+      <span class="year-pill">2018</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>跳跃生命线粤语</h3>
+      <p>救护员每一次拉响警笛，都是在和死神抢时间，但这一次，他们抢不过自己的心魔。</p>
+      <div class="card-meta">
+        <span>剧情 / 职业 / 医疗</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="欢乐龙虎榜" data-tags="港式喜剧 乌龙 警匪 怀旧" data-region="中国香港" data-category="classic">
+  <a href="./movie-0216.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./66.jpg" alt="欢乐龙虎榜" loading="lazy">
+      <span class="year-pill">2024</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>欢乐龙虎榜</h3>
+      <p>两个最不靠谱的卧底警察，不小心进了全球最凶残的杀手组织，却阴差阳错成了金牌杀手。</p>
+      <div class="card-meta">
+        <span>喜剧, 动作, 犯罪</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="时间的色彩" data-tags="时间旅行 艺术史 父女情 印象派" data-region="意大利/法国" data-category="classic">
+  <a href="./movie-0220.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./70.jpg" alt="时间的色彩" loading="lazy">
+      <span class="year-pill">2023</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>时间的色彩</h3>
+      <p>一位色盲修复师意外获得看见历史“时间色彩”的能力，却发现每幅名画都藏着一桩谋杀案。</p>
+      <div class="card-meta">
+        <span>剧情/奇幻</span>
+        <span>意大利/法国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="猫王艾维斯" data-tags="摇滚 传奇 音乐人生 传记片" data-region="美国" data-category="classic">
+  <a href="./movie-0237.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./87.jpg" alt="猫王艾维斯" loading="lazy">
+      <span class="year-pill">2023</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>猫王艾维斯</h3>
+      <p>这不是猫王的传记，而是一个叫艾维斯的普通青年疯狂模仿猫王、最终迷失自我的悲喜剧。</p>
+      <div class="card-meta">
+        <span>音乐 / 传记</span>
+        <span>美国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="救世男子汉" data-tags="反超级英雄 中年危机 伪纪录片" data-region="法国/比利时" data-category="classic">
+  <a href="./movie-0250.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./100.jpg" alt="救世男子汉" loading="lazy">
+      <span class="year-pill">2023</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>救世男子汉</h3>
+      <p>一个平凡的中年管道工被一个蹩脚外星文明误认为“地球救世主”，他必须在不暴露身份的情况下，用通马桶的绝活拯救世界。</p>
+      <div class="card-meta">
+        <span>喜剧， 奇幻， 公路</span>
+        <span>法国/比利时</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="青春2023" data-tags="高考 短视频 直播时代 迷茫" data-region="中国大陆" data-category="classic">
+  <a href="./movie-0273.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./123.jpg" alt="青春2023" loading="lazy">
+      <span class="year-pill">2023</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>青春2023</h3>
+      <p>一个县城高三班级的摄像头被黑，全班的生活在直播网站上一丝不挂地被展现在全网面前。</p>
+      <div class="card-meta">
+        <span>剧情，纪录，校园</span>
+        <span>中国大陆</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="小妇人（1933年电影）" data-tags="经典文学 姐妹情 成长 黑白片 独立女性" data-region="美国" data-category="classic">
+  <a href="./movie-0277.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./127.jpg" alt="小妇人（1933年电影）" loading="lazy">
+      <span class="year-pill">1933</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>小妇人（1933年电影）</h3>
+      <p>美国内战期间，马奇家四姐妹在贫穷与等待中，用梦想与爱撑起了一个永不凋零的家。</p>
+      <div class="card-meta">
+        <span>剧情、家庭、爱情</span>
+        <span>美国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="音乐战争" data-tags="嘻哈 地下搏击 律动 阶层对立" data-region="美国" data-category="classic">
+  <a href="./movie-0279.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./129.jpg" alt="音乐战争" loading="lazy">
+      <span class="year-pill">2025</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>音乐战争</h3>
+      <p>一位古典钢琴天才为偿还巨债被迫进入地下搏击俱乐部，却在拳台上找到了音乐般的暴力节奏。</p>
+      <div class="card-meta">
+        <span>剧情， 音乐， 犯罪</span>
+        <span>美国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="蓝色多瑙河" data-tags="二战背景 犹太人 音乐救赎" data-region="奥地利" data-category="classic">
+  <a href="./movie-0282.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./132.jpg" alt="蓝色多瑙河" loading="lazy">
+      <span class="year-pill">2021</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>蓝色多瑙河</h3>
+      <p>集中营里，一支偷偷组建的管弦乐队，用施特劳斯的圆舞曲传递摩斯密码。</p>
+      <div class="card-meta">
+        <span>音乐/历史</span>
+        <span>奥地利</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="柴堆猫班卓" data-tags="村落传说 猫耳乐队 木工童年 魔法现实 轻喜剧" data-region="中国台湾" data-category="classic">
+  <a href="./movie-0302.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./2.jpg" alt="柴堆猫班卓" loading="lazy">
+      <span class="year-pill">2015</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>柴堆猫班卓</h3>
+      <p>在常年起雾的北山镇，一个被误解为废柴的木工小孩与会弹班卓琴的流浪猫，为了找回被人夺走的童年时光追寻一枚发光铜铃。</p>
+      <div class="card-meta">
+        <span>奇幻冒险、音乐、成长</span>
+        <span>中国台湾</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="柏林墙（纪录片）" data-tags="冷战 分裂 逃亡 真实影像" data-region="德国" data-category="classic">
+  <a href="./movie-0305.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./5.jpg" alt="柏林墙（纪录片）" loading="lazy">
+      <span class="year-pill">2021</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>柏林墙（纪录片）</h3>
+      <p>从建墙到倒塌，28年间超过5000人试图翻越，300多人丧生，本片用罕见影像还原那段冰冷历史。</p>
+      <div class="card-meta">
+        <span>历史, 纪录</span>
+        <span>德国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="在阳光下腐烂" data-tags="存在主义 沙漠 尸体展 艺术惊悚" data-region="阿根廷 / 西班牙" data-category="classic">
+  <a href="./movie-0322.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./22.jpg" alt="在阳光下腐烂" loading="lazy">
+      <span class="year-pill">2024</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>在阳光下腐烂</h3>
+      <p>沙漠中七具排列成艺术装置的尸体开始腐烂，凶手每天来浇水并拍照记录。</p>
+      <div class="card-meta">
+        <span>剧情 / 悬疑 / 文艺</span>
+        <span>阿根廷 / 西班牙</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="史瑞克的万圣游戏" data-tags="万圣节 游戏穿越 恶搞经典" data-region="美国" data-category="classic">
+  <a href="./movie-0334.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./34.jpg" alt="史瑞克的万圣游戏" loading="lazy">
+      <span class="year-pill">2023</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>史瑞克的万圣游戏</h3>
+      <p>史瑞克和驴子在万圣节误入一款真人密室逃脱游戏，每个关卡都在恶搞他们曾经的冒险经历。</p>
+      <div class="card-meta">
+        <span>喜剧, 动画, 奇幻</span>
+        <span>美国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="顽皮鬼" data-tags="儿童视角 伪纪录片 民俗" data-region="泰国" data-category="classic">
+  <a href="./movie-0348.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./48.jpg" alt="顽皮鬼" loading="lazy">
+      <span class="year-pill">2024</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>顽皮鬼</h3>
+      <p>三个熊孩子为了证明世界上没有鬼，在一栋废弃鬼宅里架起摄像机，却拍到了从未见过的“生物”。</p>
+      <div class="card-meta">
+        <span>恐怖, 喜剧</span>
+        <span>泰国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="冥约粤语" data-tags="粤语剧 冥婚 都市传说 轮回 港式惊悚" data-region="中国香港" data-category="classic">
+  <a href="./movie-0408.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./108.jpg" alt="冥约粤语" loading="lazy">
+      <span class="year-pill">2024</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>冥约粤语</h3>
+      <p>香港新娘阿怡在婚礼当天收到一封信：“你老公三年前就死了，今天和你拜堂的是他哥哥。”</p>
+      <div class="card-meta">
+        <span>悬疑 / 惊悚 / 灵异</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="诡影实录" data-tags="伪记录 民俗恐怖 灵媒 第一视角" data-region="泰国" data-category="classic">
+  <a href="./movie-0435.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./135.jpg" alt="诡影实录" loading="lazy">
+      <span class="year-pill">2024</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>诡影实录</h3>
+      <p>一档网红灵异直播节目进入废弃寺庙拍摄，却在镜头前捕捉到了比鬼怪更可怕的人间诅咒。</p>
+      <div class="card-meta">
+        <span>恐怖 / 惊悚 / 伪纪录片</span>
+        <span>泰国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="第一次的亲密接触2004" data-tags="怀旧 网恋 青春 催泪" data-region="中国台湾" data-category="classic">
+  <a href="./movie-0438.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./138.jpg" alt="第一次的亲密接触2004" loading="lazy">
+      <span class="year-pill">2028</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>第一次的亲密接触2004</h3>
+      <p>2028年的女孩通过旧硬盘穿越到2004年的聊天室，爱上了当年正在等初恋的父亲。</p>
+      <div class="card-meta">
+        <span>爱情剧情</span>
+        <span>中国台湾</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="笑傲江湖2000" data-tags="赛博朋克 武侠解构 东方幻想 邪典 重制经典" data-region="中国香港" data-category="classic">
+  <a href="./movie-0440.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./140.jpg" alt="笑傲江湖2000" loading="lazy">
+      <span class="year-pill">2000</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>笑傲江湖2000</h3>
+      <p>千年虫危机爆发，令狐冲化身数字浪客，在虚拟江湖中对抗掌握了代码魔法的东方不败。</p>
+      <div class="card-meta">
+        <span>动作 / 武侠 / 奇幻</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="土拨鼠之日" data-tags="时间循环 人生哲理 治愈 经典" data-region="美国" data-category="classic">
+  <a href="./movie-0450.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./150.jpg" alt="土拨鼠之日" loading="lazy">
+      <span class="year-pill">1993</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>土拨鼠之日</h3>
+      <p>自恋的天气预报员被困在同一个小镇的同一天，无限循环，永远都是土拨鼠节。</p>
+      <div class="card-meta">
+        <span>喜剧 / 奇幻 / 爱情</span>
+        <span>美国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="朝九晚五俏佳人粤语" data-tags="办公室政治 女性 粤语俚语" data-region="中国香港" data-category="classic">
+  <a href="./movie-0457.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./7.jpg" alt="朝九晚五俏佳人粤语" loading="lazy">
+      <span class="year-pill">2024</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>朝九晚五俏佳人粤语</h3>
+      <p>四个办公室女职员发誓要准时下班，但她们的老板总在4点59分发来“紧急任务”。</p>
+      <div class="card-meta">
+        <span>喜剧，职场</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="童年拾趣" data-tags="怀旧 90年代 大院生活 成长" data-region="中国大陆" data-category="classic">
+  <a href="./movie-0472.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./22.jpg" alt="童年拾趣" loading="lazy">
+      <span class="year-pill">2025</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>童年拾趣</h3>
+      <p>1995年，北方某国营工厂大院里，五个“熊孩子”用一台报废的摄像机，拍下了父辈们下岗前最后的“体面”。</p>
+      <div class="card-meta">
+        <span>剧情、家庭、喜剧</span>
+        <span>中国大陆</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="马永贞之争霸上海滩粤语" data-tags="民国 上海滩 拳拳到肉 兄弟情仇" data-region="中国香港" data-category="classic">
+  <a href="./movie-0477.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./27.jpg" alt="马永贞之争霸上海滩粤语" loading="lazy">
+      <span class="year-pill">1998</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>马永贞之争霸上海滩粤语</h3>
+      <p>乡下拳师马永贞闯荡上海滩，一双铁拳打下半壁江山，却输给了最信任的兄弟。</p>
+      <div class="card-meta">
+        <span>动作, 剧情, 黑帮</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="一起乐队吧" data-tags="乐队 选秀 摇滚 友谊 幕后" data-region="中国大陆" data-category="classic">
+  <a href="./movie-0478.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./28.jpg" alt="一起乐队吧" loading="lazy">
+      <span class="year-pill">2024</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>一起乐队吧</h3>
+      <p>一档乐队选秀综艺的幕后，五个被淘汰的“废柴选手”偷偷租下地下室，自己组了一支真正的乐队。</p>
+      <div class="card-meta">
+        <span>音乐 / 剧情 / 青春</span>
+        <span>中国大陆</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="小乌龟福兰克林" data-tags="海龟 废港城 迷你英雄 地铁之夜 家庭记忆 失落档案" data-region="法国" data-category="classic">
+  <a href="./movie-0500.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./50.jpg" alt="小乌龟福兰克林" loading="lazy">
+      <span class="year-pill">2027</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>小乌龟福兰克林</h3>
+      <p>被弃置在废旧回收厂顶层的小乌龟福兰克林，被一位拾荒少年带回后，意外成为能“听见旧歌”的钥匙，牵出一座城市被故意改写的…</p>
+      <div class="card-meta">
+        <span>儿童奇幻·冒险·音乐</span>
+        <span>法国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="胡士托风波" data-tags="伍德斯托克 六十年代 嬉皮士 家庭旅馆 迷幻" data-region="美国" data-category="classic">
+  <a href="./movie-0501.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./51.jpg" alt="胡士托风波" loading="lazy">
+      <span class="year-pill">2009</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>胡士托风波</h3>
+      <p>一个困在家族汽车旅馆的犹太青年，意外促成了改变世界的音乐节，也改变了自己。</p>
+      <div class="card-meta">
+        <span>剧情 / 音乐 / 历史</span>
+        <span>美国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="人龙传说粤语" data-tags="神话 虐恋 经典 悲剧 人龙恋" data-region="中国香港" data-category="classic">
+  <a href="./movie-0510.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./60.jpg" alt="人龙传说粤语" loading="lazy">
+      <span class="year-pill">1999</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>人龙传说粤语</h3>
+      <p>屠龙世家之子救下受伤的龙女，一段跨越族群的孽缘就此展开，却不知天谴将至。</p>
+      <div class="card-meta">
+        <span>奇幻, 古装, 爱情</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="鲁本，鲁本" data-tags="摇滚 精神疾病 创作困境 真实故事改编 父子" data-region="英国" data-category="classic">
+  <a href="./movie-0539.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./89.jpg" alt="鲁本，鲁本" loading="lazy">
+      <span class="year-pill">2025</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>鲁本，鲁本</h3>
+      <p>英国传奇摇滚乐手鲁本在双相情感障碍的狂喜与深渊中，尝试创作出最后一张救赎专辑。</p>
+      <div class="card-meta">
+        <span>传记, 音乐</span>
+        <span>英国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="伊布丽的美食遗产" data-tags="家族食谱 地方风味 市集寻访 代际传承 饮食记忆" data-region="摩洛哥" data-category="classic">
+  <a href="./movie-0558.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./108.jpg" alt="伊布丽的美食遗产" loading="lazy">
+      <span class="year-pill">2022</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>伊布丽的美食遗产</h3>
+      <p>一位年轻厨师沿着祖母留下的食谱回到故乡，却在一道道旧菜里重新拼出整个家族被遗忘的历史。</p>
+      <div class="card-meta">
+        <span>美食 / 人文 / 旅行</span>
+        <span>摩洛哥</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="边境音暴" data-tags="边境走私 声音武器 天才少年 毒品战争 另类动作" data-region="中国大陆" data-category="classic">
+  <a href="./movie-0568.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./118.jpg" alt="边境音暴" loading="lazy">
+      <span class="year-pill">2025</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>边境音暴</h3>
+      <p>为了找到失踪的缉毒警父亲，天才音乐少年利用“声音共振”技术，在边境密林中发动了一场无声的战争。</p>
+      <div class="card-meta">
+        <span>犯罪，音乐，剧情</span>
+        <span>中国大陆</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="鲭鱼罐头" data-tags="夏日友情 昭和怀旧 死亡教育 治愈系" data-region="日本" data-category="classic">
+  <a href="./movie-0585.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./135.jpg" alt="鲭鱼罐头" loading="lazy">
+      <span class="year-pill">2024</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>鲭鱼罐头</h3>
+      <p>1986年夏天，两个小学生为了验证“鲭鱼罐头能治心脏病”的谣言，骑着单车穿越半个县城去找一位传说中的奶奶。</p>
+      <div class="card-meta">
+        <span>剧情 / 儿童</span>
+        <span>日本</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="女性人体美" data-tags="人体绘画 身体政治 女性凝视 复古美学" data-region="法国 / 意大利" data-category="classic">
+  <a href="./movie-0597.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./147.jpg" alt="女性人体美" loading="lazy">
+      <span class="year-pill">2025</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>女性人体美</h3>
+      <p>1919年巴黎，一位毁容的女雕塑家决定用自己的身体做模具，重塑艺术史上最不完美的圣母像。</p>
+      <div class="card-meta">
+        <span>剧情 / 艺术</span>
+        <span>法国 / 意大利</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="季前赛粤语" data-tags="篮球 青春 热血 粤语 励志" data-region="中国香港" data-category="classic">
+  <a href="./movie-0599.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./149.jpg" alt="季前赛粤语" loading="lazy">
+      <span class="year-pill">2024</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>季前赛粤语</h3>
+      <p>香港一支业余篮球队在季前赛期间，为了保住仅有的球场，被迫和黑社会打了一场“赌命”篮球赛。</p>
+      <div class="card-meta">
+        <span>运动, 剧情, 青春</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="审判八号提案" data-tags="同性权益 法庭 真实事件 平权" data-region="美国" data-category="classic">
+  <a href="./movie-0603.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./3.jpg" alt="审判八号提案" loading="lazy">
+      <span class="year-pill">2014</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>审判八号提案</h3>
+      <p>一对同性伴侣与一位保守派律师联手，在美国联邦法庭上挑战臭名昭著的“八号提案”。</p>
+      <div class="card-meta">
+        <span>纪录片/法律</span>
+        <span>美国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="打开我天空粤语" data-tags="航空梦 城市天台 粤语歌 青春成长 母女和解" data-region="中国香港" data-category="classic">
+  <a href="./movie-0614.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./14.jpg" alt="打开我天空粤语" loading="lazy">
+      <span class="year-pill">2010</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>打开我天空粤语</h3>
+      <p>一个总把天空画成灰色的少女，在废弃天台遇到一群修旧滑翔机的同学后，第一次相信自己也能飞起来。</p>
+      <div class="card-meta">
+        <span>青春 / 音乐 / 剧情</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="野马秀" data-tags="单口喜剧 脱口秀 女性成长 黑人文化 犀利吐槽" data-region="美国" data-category="classic">
+  <a href="./movie-0633.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./33.jpg" alt="野马秀" loading="lazy">
+      <span class="year-pill">2024</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>野马秀</h3>
+      <p>一个破产的脱口秀女演员闯入德州野马竞技场，用话筒和笑声对抗整个父权体制。</p>
+      <div class="card-meta">
+        <span>喜剧 / 音乐</span>
+        <span>美国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="降魔的粤语" data-tags="的士司机 都市传说 粤语原声 接地气" data-region="中国香港" data-category="classic">
+  <a href="./movie-0649.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./49.jpg" alt="降魔的粤语" loading="lazy">
+      <span class="year-pill">2017</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>降魔的粤语</h3>
+      <p>一个普通的士司机意外开了“天眼”，每晚载的客人有一半不是人，而他却要用“嘴炮”降魔。</p>
+      <div class="card-meta">
+        <span>奇幻, 惊悚, 喜剧</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 偶然 虫 血猪 失婚记 夺命剑之风云再起 文字欲 警察帝国 超级富豪异乡人 江山风雨情 我的最爱 德州崛起 独臂刀客/断臂刀国语 山羊的盛宴 猥琐传说：大电影 凶手或许就是你 武艺图谱通志 大人们不懂 楚留香传奇 阴暗浮沉鸭 纽约城外" data-tags="根据片名判断" data-region="根据片名判断" data-category="classic">
+  <a href="./movie-0659.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./59.jpg" alt="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 偶然 虫 血猪 失婚记 夺命剑之风云再起 文字欲 警察帝国 超级富豪异乡人 江山风雨情 我的最爱 德州崛起 独臂刀客/断臂刀国语 山羊的盛宴 猥琐传说：大电影 凶手或许就是你 武艺图谱通志 大人们不懂 楚留香传奇 阴暗浮沉鸭 纽约城外" loading="lazy">
+      <span class="year-pill">2024</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 偶然 虫 血猪 失婚记 夺命剑之风云再起 文字欲 警察帝国 超级富豪异乡人 江山风雨情 我的最爱 德州崛起 独臂刀客/断臂刀国语 山羊的盛宴 猥琐传说：大电影 凶手或许就是你 武艺图谱通志 大人们不懂 楚留香传奇 阴暗浮沉鸭 纽约城外</h3>
+      <p>（一句话剧情钩子，20~40 字左右，简洁但有记忆点）</p>
+      <div class="card-meta">
+        <span>根据片名判断</span>
+        <span>根据片名判断</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="莫里哀情史" data-tags="古典戏剧 师生恋 艺术与生活 宫廷斗争" data-region="法国" data-category="classic">
+  <a href="./movie-0661.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./61.jpg" alt="莫里哀情史" loading="lazy">
+      <span class="year-pill">2025</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>莫里哀情史</h3>
+      <p>法兰西喜剧院的后台，莫里哀在创作最后一部戏时，疯狂爱上了自己的女学生——国王的情妇。</p>
+      <div class="card-meta">
+        <span>剧情 / 传记 / 爱情</span>
+        <span>法国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="噪乐江湖" data-tags="摇滚 国风 独立音乐 地下江湖" data-region="中国大陆" data-category="classic">
+  <a href="./movie-0676.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./76.jpg" alt="噪乐江湖" loading="lazy">
+      <span class="year-pill">2025</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>噪乐江湖</h3>
+      <p>一群玩独立音乐的年轻人试图在流量时代杀出重围，却发现最大的敌人不是资本，而是曾经的自己。</p>
+      <div class="card-meta">
+        <span>音乐，剧情，青春</span>
+        <span>中国大陆</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="雨中的恋人们" data-tags="香港暴雨 地下恋情 时代变迁 失忆重逢 怀旧" data-region="中国香港" data-category="classic">
+  <a href="./movie-0682.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./82.jpg" alt="雨中的恋人们" loading="lazy">
+      <span class="year-pill">2025</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>雨中的恋人们</h3>
+      <p>1997年大雨夜，一对偷情的恋人在逃亡途中遭遇车祸，男人失忆，女人独自抚养孩子二十五年。</p>
+      <div class="card-meta">
+        <span>爱情 / 剧情 / 年代</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="活跃在法兰西现场" data-tags="记者 伪纪录片 荒诞 政治讽刺 话痨" data-region="法国" data-category="classic">
+  <a href="./movie-0692.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./92.jpg" alt="活跃在法兰西现场" loading="lazy">
+      <span class="year-pill">2016</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>活跃在法兰西现场</h3>
+      <p>一个想成名的法国乡村记者，跑到巴黎专访“路人”，结果受访者全比他更会编。</p>
+      <div class="card-meta">
+        <span>喜剧，剧情</span>
+        <span>法国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="重案组粤语" data-tags="TVB 单元剧 重案组 集体群像 港剧黄金时代" data-region="中国香港" data-category="classic">
+  <a href="./movie-0702.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./102.jpg" alt="重案组粤语" loading="lazy">
+      <span class="year-pill">1995</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>重案组粤语</h3>
+      <p>1995年，香港重案组六个性格迥异的探员，每集处理一个奇案，同时处理自己生活里的一地鸡毛。</p>
+      <div class="card-meta">
+        <span>警匪 / 动作 / 刑侦</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="嫂夫人粤语" data-tags="伦理 嫂子 家族秘密 粤语" data-region="中国香港" data-category="classic">
+  <a href="./movie-0706.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./106.jpg" alt="嫂夫人粤语" loading="lazy">
+      <span class="year-pill">2025</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>嫂夫人粤语</h3>
+      <p>弟弟爱上嫂子，却在调查哥哥死因时发现，嫂子才是真正的猎手。</p>
+      <div class="card-meta">
+        <span>剧情, 悬疑, 家庭</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="老瑞和哈迪之沙漠王子" data-tags="黑白片 劳莱与哈代 经典喜剧 沙漠寻宝" data-region="美国" data-category="classic">
+  <a href="./movie-0708.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./108.jpg" alt="老瑞和哈迪之沙漠王子" loading="lazy">
+      <span class="year-pill">1937</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>老瑞和哈迪之沙漠王子</h3>
+      <p>一对活宝兄弟流落撒哈拉，被误认为失落的沙漠王子，稀里糊涂卷入王位争夺和一场公主的逼婚。</p>
+      <div class="card-meta">
+        <span>喜剧, 冒险</span>
+        <span>美国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="只是孩子" data-tags="朋克 艺术家 纽约 真实改编" data-region="美国" data-category="classic">
+  <a href="./movie-0721.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./121.jpg" alt="只是孩子" loading="lazy">
+      <span class="year-pill">2025</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>只是孩子</h3>
+      <p>七十年代纽约，一对穷困的艺术家情侣在切尔西酒店相爱相杀，他们相约成名后永不分离，却走上了完全相反的道路。</p>
+      <div class="card-meta">
+        <span>剧情 / 音乐</span>
+        <span>美国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="誓不低头粤语" data-tags="港剧 草根 大状 冤案 小人物" data-region="中国香港" data-category="classic">
+  <a href="./movie-0725.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./125.jpg" alt="誓不低头粤语" loading="lazy">
+      <span class="year-pill">2024</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>誓不低头粤语</h3>
+      <p>坐牢二十载的出狱老人，发现女儿被害并非意外，他要靠自己推翻铁证。</p>
+      <div class="card-meta">
+        <span>剧情，律政，家庭</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="逆天奇案粤语" data-tags="奇案 高智商犯罪 双雄对决 港式刑侦" data-region="香港" data-category="classic">
+  <a href="./movie-0736.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./136.jpg" alt="逆天奇案粤语" loading="lazy">
+      <span class="year-pill">2021</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>逆天奇案粤语</h3>
+      <p>七个看似不可能破解的“逆天”奇案，背后都指向了同一个“已经死了”的天才犯罪顾问。</p>
+      <div class="card-meta">
+        <span>悬疑, 犯罪, 剧情</span>
+        <span>香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="飞越谜情国语" data-tags="时空情书 寻人启事 国配经典" data-region="香港" data-category="classic">
+  <a href="./movie-0759.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./9.jpg" alt="飞越谜情国语" loading="lazy">
+      <span class="year-pill">2025</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>飞越谜情国语</h3>
+      <p>一个空少在飞机座椅口袋发现一封1987年的情书，他决定找到写信人，却陷入了跨越时空的三角恋。</p>
+      <div class="card-meta">
+        <span>爱情 / 悬疑</span>
+        <span>香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="最大的小小农场：回归" data-tags="环保 自然农耕 家庭 生态平衡" data-region="美国" data-category="classic">
+  <a href="./movie-0762.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./12.jpg" alt="最大的小小农场：回归" loading="lazy">
+      <span class="year-pill">2026</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>最大的小小农场：回归</h3>
+      <p>在经营了十年生态农场后，一场史无前例的山火烧毁了他们的家园，一家人决定在焦土上重建一个更好的农场。</p>
+      <div class="card-meta">
+        <span>纪录片 / 家庭</span>
+        <span>美国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="网飞对抗全世界" data-tags="流媒体之战 幕后 行业揭秘" data-region="美国" data-category="classic">
+  <a href="./movie-0794.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./44.jpg" alt="网飞对抗全世界" loading="lazy">
+      <span class="year-pill">2024</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>网飞对抗全世界</h3>
+      <p>从DVD租赁到流媒体霸主，Netflix如何在与好莱坞传统巨头的全面战争中杀出血路。</p>
+      <div class="card-meta">
+        <span>纪录 / 商业</span>
+        <span>美国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="与郎共舞粤语" data-tags="拉丁舞 冤家变情侣 90年代 港风 欢喜冤家" data-region="中国香港" data-category="classic">
+  <a href="./movie-0821.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./71.jpg" alt="与郎共舞粤语" loading="lazy">
+      <span class="year-pill">1991</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>与郎共舞粤语</h3>
+      <p>高傲的拉丁舞冠军被迫与泼辣的女清洁工组队参赛，两人从拆台到同步只差一个转身。</p>
+      <div class="card-meta">
+        <span>爱情 / 喜剧 / 歌舞</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="海上钢琴师国语" data-tags="天才钢琴家 邮轮 归宿" data-region="意大利" data-category="classic">
+  <a href="./movie-0826.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./76.jpg" alt="海上钢琴师国语" loading="lazy">
+      <span class="year-pill">1998</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>海上钢琴师国语</h3>
+      <p>他一生从未踏上陆地，在巨轮的轰鸣中用琴键弹奏出整个世纪的兴衰。</p>
+      <div class="card-meta">
+        <span>剧情, 音乐</span>
+        <span>意大利</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="悲伤秘密摇篮曲" data-tags="夜间录音 育婴机构 伪安抚音乐 失忆 社会实验" data-region="法国" data-category="classic">
+  <a href="./movie-0827.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./77.jpg" alt="悲伤秘密摇篮曲" loading="lazy">
+      <span class="year-pill">2022</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>悲伤秘密摇篮曲</h3>
+      <p>摇篮里的歌声像警报也像安抚，叶薇必须在悲伤与真相之间选择一条能把孩子从阴影里拉回来的路。</p>
+      <div class="card-meta">
+        <span>心理惊悚 / 家庭悬疑 / 社会议题</span>
+        <span>法国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="琴弦绝响" data-tags="古琴 非遗 民国 师徒 绝响" data-region="中国大陆" data-category="classic">
+  <a href="./movie-0829.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./79.jpg" alt="琴弦绝响" loading="lazy">
+      <span class="year-pill">2021</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>琴弦绝响</h3>
+      <p>民国乱世，古琴大师将毕生绝技传给哑巴徒弟，但战火中琴谱化为灰烬。</p>
+      <div class="card-meta">
+        <span>剧情 / 音乐 / 历史</span>
+        <span>中国大陆</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="食在云南" data-tags="云南风味 边地风情 食材溯源" data-region="中国" data-category="classic">
+  <a href="./movie-0835.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./85.jpg" alt="食在云南" loading="lazy">
+      <span class="year-pill">2026</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>食在云南</h3>
+      <p>镜头深入云南129个县，从香格里拉的松茸到西双版纳的蚂蚁蛋，记录正在消失的边地食俗。</p>
+      <div class="card-meta">
+        <span>纪录片 / 美食 / 人文</span>
+        <span>中国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="生命因你动听" data-tags="自闭症 钢琴 母女 治愈 真实事件改编" data-region="中国大陆" data-category="classic">
+  <a href="./movie-0857.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./107.jpg" alt="生命因你动听" loading="lazy">
+      <span class="year-pill">2025</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>生命因你动听</h3>
+      <p>一个被诊断为终身无法交流的自闭症女孩，在母亲近乎偏执的引导下，竟能用钢琴“翻译”内心的声音。</p>
+      <div class="card-meta">
+        <span>剧情 / 音乐 / 家庭</span>
+        <span>中国大陆</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="撩动心弦" data-tags="治愈 钢琴 错过" data-region="中国台湾" data-category="classic">
+  <a href="./movie-0869.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./119.jpg" alt="撩动心弦" loading="lazy">
+      <span class="year-pill">2025</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>撩动心弦</h3>
+      <p>失聪调音师与患有舞台恐惧症的天才钢琴家，在一间破旧的琴房里互相救赎。</p>
+      <div class="card-meta">
+        <span>爱情，音乐，剧情</span>
+        <span>中国台湾</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="鬼哭神嚎8：灵异鬼现" data-tags="伪纪录片 密室 血腥 民俗" data-region="美国" data-category="classic">
+  <a href="./movie-0878.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./128.jpg" alt="鬼哭神嚎8：灵异鬼现" loading="lazy">
+      <span class="year-pill">2026</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>鬼哭神嚎8：灵异鬼现</h3>
+      <p>网红主播闯进鬼屋直播，却发现自己10万+在线观众，全是当年死在屋里的冤魂。</p>
+      <div class="card-meta">
+        <span>恐怖</span>
+        <span>美国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="马场大亨粤语" data-tags="赛马 兄弟阋墙 粤语原声 金融暗战 动物" data-region="香港" data-category="classic">
+  <a href="./movie-0879.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./129.jpg" alt="马场大亨粤语" loading="lazy">
+      <span class="year-pill">2024</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>马场大亨粤语</h3>
+      <p>赌王死后，四个子女为争夺一匹价值连城的传奇种马和整个赛马帝国，掀起腥风血雨。</p>
+      <div class="card-meta">
+        <span>商战 / 家族 / 体育</span>
+        <span>香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="慈善星辉布公仔" data-tags="布偶 慈善晚会 乌龙劫案 歌舞" data-region="美国 / 英国" data-category="classic">
+  <a href="./movie-0895.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./145.jpg" alt="慈善星辉布公仔" loading="lazy">
+      <span class="year-pill">2023</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>慈善星辉布公仔</h3>
+      <p>一场众星云集的慈善晚会，所有捐款竟被布偶们无意中卷入一场地下赌狗的阴谋。</p>
+      <div class="card-meta">
+        <span>喜剧 / 音乐 / 家庭</span>
+        <span>美国 / 英国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="打工贵族粤语" data-tags="豪门 秘书 职场斗争 粤语原声" data-region="中国香港" data-category="classic">
+  <a href="./movie-0916.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./16.jpg" alt="打工贵族粤语" loading="lazy">
+      <span class="year-pill">1992</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>打工贵族粤语</h3>
+      <p>顶尖秘书公司的“打工皇帝”们，周旋于豪门恩怨与商战阴谋之间。</p>
+      <div class="card-meta">
+        <span>剧情， 职场， 商战</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="枭情粤语" data-tags="兄弟反目 江湖恩怨 卧底 港风 情感博弈" data-region="中国香港" data-category="classic">
+  <a href="./movie-0919.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./19.jpg" alt="枭情粤语" loading="lazy">
+      <span class="year-pill">1993</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>枭情粤语</h3>
+      <p>一个在黑道与警界之间游走的男人，原本只想保住兄弟和爱人，却在一次次背叛里被迫坐上无法回头的位置。</p>
+      <div class="card-meta">
+        <span>黑帮 / 爱情 / 犯罪</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="麦金利总统就职典礼录像" data-tags="总统遇刺 修复影像 政治阴谋" data-region="美国" data-category="classic">
+  <a href="./movie-0960.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./60.jpg" alt="麦金利总统就职典礼录像" loading="lazy">
+      <span class="year-pill">2025</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>麦金利总统就职典礼录像</h3>
+      <p>尘封百年的胶片被修复，画面中竟藏着指向现代凶案的密码。</p>
+      <div class="card-meta">
+        <span>历史，悬疑</span>
+        <span>美国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="小巨人1970" data-tags="经典 反西部片 印第安人 荒诞 史诗" data-region="美国" data-category="classic">
+  <a href="./movie-0970.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./70.jpg" alt="小巨人1970" loading="lazy">
+      <span class="year-pill">1970</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>小巨人1970</h3>
+      <p>一个白人男孩在印第安部落长大，又被白人社会抓走，一生在两种文明间反复横跳，活了121岁。</p>
+      <div class="card-meta">
+        <span>西部, 冒险, 喜剧</span>
+        <span>美国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="圣诞快乐颂" data-tags="节日合家欢 灵魂互换 阿卡贝拉" data-region="英国" data-category="classic">
+  <a href="./movie-0973.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./73.jpg" alt="圣诞快乐颂" loading="lazy">
+      <span class="year-pill">2022</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>圣诞快乐颂</h3>
+      <p>一个刻薄的投行男与一个热情洋溢的教堂唱诗班指挥意外灵魂互换，必须在平安夜之前换回身体。</p>
+      <div class="card-meta">
+        <span>喜剧 / 音乐 / 家庭</span>
+        <span>英国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="风景" data-tags="中国 自然风光 城市建设 航拍" data-region="中国大陆" data-category="classic">
+  <a href="./movie-1025.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./125.jpg" alt="风景" loading="lazy">
+      <span class="year-pill">2022</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>风景</h3>
+      <p>没有旁白，只有风声和市井喧嚣，用极致唯美的镜头记录中国东西南北四个极点的普通人眼中的“风景”。</p>
+      <div class="card-meta">
+        <span>纪录, 人文</span>
+        <span>中国大陆</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="夏日回响" data-tags="民谣 留守儿童 吉他 夏天 治愈" data-region="中国大陆" data-category="classic">
+  <a href="./movie-1043.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./143.jpg" alt="夏日回响" loading="lazy">
+      <span class="year-pill">2024</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>夏日回响</h3>
+      <p>2009年夏天，12岁的留守儿童小军在河边捡到一把烧焦的吉他，而吉他里藏着失踪十年的父亲寄来的所有未寄出的信。</p>
+      <div class="card-meta">
+        <span>剧情 / 音乐 / 家庭</span>
+        <span>中国大陆</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="音响生命体" data-tags="声音 怪兽 治愈 童年创伤 音乐" data-region="日本" data-category="classic">
+  <a href="./movie-1044.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./144.jpg" alt="音响生命体" loading="lazy">
+      <span class="year-pill">2026</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>音响生命体</h3>
+      <p>一个失聪的女孩发现，世界上所有的声音其实都是一种寄生在人类耳蜗里的微小外星生物。</p>
+      <div class="card-meta">
+        <span>奇幻</span>
+        <span>日本</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="关于灰鸽子的歌" data-tags="街头艺人 遗愿清单 巴黎 治愈 民谣" data-region="法国" data-category="classic">
+  <a href="./movie-1053.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./3.jpg" alt="关于灰鸽子的歌" loading="lazy">
+      <span class="year-pill">2023</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>关于灰鸽子的歌</h3>
+      <p>一个被宣告只剩三个月生命的街头歌手，决定用一首歌为城市里每一只灰鸽子送别。</p>
+      <div class="card-meta">
+        <span>剧情， 音乐</span>
+        <span>法国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="巧破箱尸案粤语" data-tags="箱尸 本格推理 香港旧案 双雄 粤语原声" data-region="中国香港" data-category="classic">
+  <a href="./movie-1067.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./17.jpg" alt="巧破箱尸案粤语" loading="lazy">
+      <span class="year-pill">2024</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>巧破箱尸案粤语</h3>
+      <p>一只行李箱漂上维多利亚港，里面装着三具不同年代的女尸，和一张1997年的报纸。</p>
+      <div class="card-meta">
+        <span>悬疑 / 犯罪 / 动作</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="美国风情画" data-tags="青春 怀旧 公路 摇滚乐 群像" data-region="美国" data-category="classic">
+  <a href="./movie-1072.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./22.jpg" alt="美国风情画" loading="lazy">
+      <span class="year-pill">1973</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>美国风情画</h3>
+      <p>1962年的最后一个夏夜，一群加州青年在 cruising 与告别中，驶向了各自无法回头的成人世界。</p>
+      <div class="card-meta">
+        <span>剧情 / 喜剧</span>
+        <span>美国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="洋基涂鸦粉红色" data-tags="二战 涂鸦 反战 摇滚 荒诞" data-region="美国" data-category="classic">
+  <a href="./movie-1077.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./27.jpg" alt="洋基涂鸦粉红色" loading="lazy">
+      <span class="year-pill">2023</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>洋基涂鸦粉红色</h3>
+      <p>一个只会涂鸦的纽约嬉皮士，被误当成密码专家送入二战战场，他用粉红色颜料改变了战争走向。</p>
+      <div class="card-meta">
+        <span>喜剧 / 战争 / 音乐</span>
+        <span>美国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="唱吧！奇迹！" data-tags="合唱团 留守儿童 梦想 支教 催泪" data-region="中国" data-category="classic">
+  <a href="./movie-1088.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./38.jpg" alt="唱吧！奇迹！" loading="lazy">
+      <span class="year-pill">2023</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>唱吧！奇迹！</h3>
+      <p>一群五音不全的留守儿童，被一个失意的音乐老师组成了合唱团。</p>
+      <div class="card-meta">
+        <span>剧情 / 音乐 / 家庭</span>
+        <span>中国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="色戒" data-tags="谍战 牺牲 情欲 民国 改编经典" data-region="中国香港 / 中国大陆" data-category="classic">
+  <a href="./movie-1092.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./42.jpg" alt="色戒" loading="lazy">
+      <span class="year-pill">2027</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>色戒</h3>
+      <p>全新视角重述经典，这次不再是女学生诱惑汉奸，而是汉奸设局等待猎物入瓮。</p>
+      <div class="card-meta">
+        <span>剧情、爱情</span>
+        <span>中国香港 / 中国大陆</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="边个够我姜" data-tags="街头智慧 废柴逆袭 粤语俚语" data-region="中国香港" data-category="classic">
+  <a href="./movie-1123.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./73.jpg" alt="边个够我姜" loading="lazy">
+      <span class="year-pill">2024</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>边个够我姜</h3>
+      <p>一个靠卖“毒姜”为生的庙街小贩，阴差阳错成了全港最大黑帮的“军师”。</p>
+      <div class="card-meta">
+        <span>喜剧、黑帮、励志</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="散打粤语" data-tags="散打 粤语片 底层逆袭 拳击 市井" data-region="中国香港" data-category="classic">
+  <a href="./movie-1126.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./76.jpg" alt="散打粤语" loading="lazy">
+      <span class="year-pill">2025</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>散打粤语</h3>
+      <p>一个口吃的底层青年为了在庙街生存，被迫用粤语脏话和拳头打出属于自己的江湖。</p>
+      <div class="card-meta">
+        <span>动作 / 体育 / 剧情</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="中华战争通史" data-tags="军事战略 古代战役 沙盘推演 三维地图" data-region="中国大陆" data-category="classic">
+  <a href="./movie-1130.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./80.jpg" alt="中华战争通史" loading="lazy">
+      <span class="year-pill">2020</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>中华战争通史</h3>
+      <p>从涿鹿之战到辛亥革命，用三维动画复原改变中国命运的每一寸焦土。</p>
+      <div class="card-meta">
+        <span>历史</span>
+        <span>中国大陆</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 天地雄心 最爱2021 她们的名字叫红 亲爱的大坏蛋 男主角 极度凶鳄：混种遗兽 驸马不要啊 动态漫第三季 警察故事2013粤语 一吻巴黎 另一个故乡 零时行动 神乐 广州三日屠城记 学子惊魂 朋友请吃饭·烧烤季 屋根 双刃 卧底跑男 借刀杀人 光之梦" data-tags="根据片名判断" data-region="根据片名判断" data-category="classic">
+  <a href="./movie-1141.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./91.jpg" alt="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 天地雄心 最爱2021 她们的名字叫红 亲爱的大坏蛋 男主角 极度凶鳄：混种遗兽 驸马不要啊 动态漫第三季 警察故事2013粤语 一吻巴黎 另一个故乡 零时行动 神乐 广州三日屠城记 学子惊魂 朋友请吃饭·烧烤季 屋根 双刃 卧底跑男 借刀杀人 光之梦" loading="lazy">
+      <span class="year-pill">2024</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 天地雄心 最爱2021 她们的名字叫红 亲爱的大坏蛋 男主角 极度凶鳄：混种遗兽 驸马不要啊 动态漫第三季 警察故事2013粤语 一吻巴黎 另一个故乡 零时行动 神乐 广州三日屠城记 学子惊魂 朋友请吃饭·烧烤季 屋根 双刃 卧底跑男 借刀杀人 光之梦</h3>
+      <p>（一句话剧情钩子，20~40 字左右，简洁但有记忆点）</p>
+      <div class="card-meta">
+        <span>根据片名判断</span>
+        <span>根据片名判断</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="持摄像机的人" data-tags="苏联蒙太奇 维尔托夫 城市交响曲 电影眼睛 经典" data-region="苏联" data-category="classic">
+  <a href="./movie-1142.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./92.jpg" alt="持摄像机的人" loading="lazy">
+      <span class="year-pill">1929</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>持摄像机的人</h3>
+      <p>没有剧本，没有演员，只有一个持摄像机的人穿梭在苏联的城市与乡村，记录下那个时代最真实的脉搏。</p>
+      <div class="card-meta">
+        <span>纪录片， 实验， 无声</span>
+        <span>苏联</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="爱重奏" data-tags="音乐 追梦 都市 情感" data-region="中国大陆" data-category="classic">
+  <a href="./movie-1149.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./99.jpg" alt="爱重奏" loading="lazy">
+      <span class="year-pill">2025</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>爱重奏</h3>
+      <p>落魄钢琴师与前女友在音乐比赛中重逢，却发现彼此的乐谱里藏着未说出口的秘密。</p>
+      <div class="card-meta">
+        <span>剧情 / 爱情 / 音乐</span>
+        <span>中国大陆</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="米奇欢乐多第一季" data-tags="复古 无厘头 短片 欢乐 经典" data-region="美国" data-category="classic">
+  <a href="./movie-1151.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./101.jpg" alt="米奇欢乐多第一季" loading="lazy">
+      <span class="year-pill">2013</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>米奇欢乐多第一季</h3>
+      <p>米奇、米妮、唐老鸭化身打工人，在日常琐事中上演爆笑荒诞剧。</p>
+      <div class="card-meta">
+        <span>动画，喜剧</span>
+        <span>美国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="恩深情更深" data-tags="豪门恩怨 养子复仇 经典老剧 商战 虐恋" data-region="中国香港" data-category="classic">
+  <a href="./movie-1168.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./118.jpg" alt="恩深情更深" loading="lazy">
+      <span class="year-pill">1989</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>恩深情更深</h3>
+      <p>二十年前被豪门养子陷害逐出家门的亲生子，如今化身商业奇才归来，却发现仇人竟是自己的救命恩人。</p>
+      <div class="card-meta">
+        <span>剧情, 家庭, 伦理</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="闪光的夏天" data-tags="高考 代际冲突 成长 怀旧" data-region="中国大陆" data-category="classic">
+  <a href="./movie-1183.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./133.jpg" alt="闪光的夏天" loading="lazy">
+      <span class="year-pill">2024</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>闪光的夏天</h3>
+      <p>2008年高考后那个最热的夏天，一个县城少年用一把吉他撬动了父亲的铁饭碗。</p>
+      <div class="card-meta">
+        <span>青春 / 家庭 / 剧情</span>
+        <span>中国大陆</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="催眠麦克风第二季" data-tags="说唱 异能 男性团体" data-region="日本" data-category="classic">
+  <a href="./movie-1185.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./135.jpg" alt="催眠麦克风第二季" loading="lazy">
+      <span class="year-pill">2026</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>催眠麦克风第二季</h3>
+      <p>新一季的Division Rap Battle引入了女子赛区，六个女人比男人更能撕，歌词也更脏。</p>
+      <div class="card-meta">
+        <span>音乐战斗</span>
+        <span>日本</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="壹号皇庭5国语" data-tags="TVB 法庭辩论 职业剧 经典续作" data-region="中国香港" data-category="classic">
+  <a href="./movie-1186.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./136.jpg" alt="壹号皇庭5国语" loading="lazy">
+      <span class="year-pill">1997</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>壹号皇庭5国语</h3>
+      <p>法庭是他们的战场，酒吧是他们的道场，这一季来了个无视一切规则的新人律师。</p>
+      <div class="card-meta">
+        <span>律政, 剧情</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="有生于无：说唱的艺术" data-tags="地下说唱 西南小镇 文化启蒙 理想与现实 方言说唱" data-region="中国大陆" data-category="classic">
+  <a href="./movie-1203.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./3.jpg" alt="有生于无：说唱的艺术" loading="lazy">
+      <span class="year-pill">2024</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>有生于无：说唱的艺术</h3>
+      <p>在贵州一个不通网的小镇上，几个留守少年通过一台破旧的收音机听到“说唱”，从此他们决定用最简陋的设备，记录下自己“无”…</p>
+      <div class="card-meta">
+        <span>纪录片，音乐</span>
+        <span>中国大陆</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="音乐人生" data-tags="香港 天才 钢琴 成长 张经纬" data-region="中国香港" data-category="classic">
+  <a href="./movie-1223.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./23.jpg" alt="音乐人生" loading="lazy">
+      <span class="year-pill">2009</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>音乐人生</h3>
+      <p>香港钢琴天才黄家正从11岁到17岁的六年人生记录，关于天赋、偏执与“为什么要弹琴”的追问。</p>
+      <div class="card-meta">
+        <span>纪录片, 音乐</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="彼得·潘的梦幻岛噩梦" data-tags="暗黑童话 童年阴影 颠覆经典" data-region="美国" data-category="classic">
+  <a href="./movie-1239.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./39.jpg" alt="彼得·潘的梦幻岛噩梦" loading="lazy">
+      <span class="year-pill">2025</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>彼得·潘的梦幻岛噩梦</h3>
+      <p>当迷失男孩们不再想长大，彼得·潘便开始“修剪”他们——用最残忍的方式。</p>
+      <div class="card-meta">
+        <span>恐怖 / 奇幻</span>
+        <span>美国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="劍膽" data-tags="邵氏 王羽 经典武侠 独臂刀情结 复仇" data-region="中国香港" data-category="classic">
+  <a href="./movie-1253.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./53.jpg" alt="劍膽" loading="lazy">
+      <span class="year-pill">1969</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>劍膽</h3>
+      <p>武林盟主惨遭灭门，唯一幸存的小儿子被削去右臂，流落荒野习得左手剑法，十年后带着一把锈剑回来复仇，却发现仇人竟然是当年…</p>
+      <div class="card-meta">
+        <span>动作、武侠、古装</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="闪烁背后的故事" data-tags="娱乐业 替身 女性 职场 假象" data-region="中国香港" data-category="classic">
+  <a href="./movie-1262.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./62.jpg" alt="闪烁背后的故事" loading="lazy">
+      <span class="year-pill">2023</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>闪烁背后的故事</h3>
+      <p>她是顶流女星的御用“手替”，那只在镜头前弹钢琴、戴钻戒的手，今晚因为自残而缠满了绷带。</p>
+      <div class="card-meta">
+        <span>剧情 / 纪录片风格</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="暗黑街的颜役" data-tags="黑帮 昭和 任侠 黑白 经典" data-region="日本" data-category="classic">
+  <a href="./movie-1277.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./77.jpg" alt="暗黑街的颜役" loading="lazy">
+      <span class="year-pill">1959</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>暗黑街的颜役</h3>
+      <p>昭和初年东京暗黑街，一个独眼的黑帮头目在警方围剿与敌对帮派夹击中，试图完成最后一次“任侠”。</p>
+      <div class="card-meta">
+        <span>犯罪 / 黑帮 / 黑白片</span>
+        <span>日本</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="不惧风暴" data-tags="龙卷风 伪纪录片 气象 生存" data-region="美国" data-category="classic">
+  <a href="./movie-1295.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./95.jpg" alt="不惧风暴" loading="lazy">
+      <span class="year-pill">2014</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>不惧风暴</h3>
+      <p>史上最强EF6级龙卷风突袭小镇，一组追风者、一家纪录片团队和来不及撤离的居民，被卷进风暴中心。</p>
+      <div class="card-meta">
+        <span>灾难，惊悚</span>
+        <span>美国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="恐龙星球" data-tags="自然历史 CGI特效 古生物学" data-region="英国 / 美国" data-category="classic">
+  <a href="./movie-1317.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./117.jpg" alt="恐龙星球" loading="lazy">
+      <span class="year-pill">2023</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>恐龙星球</h3>
+      <p>颠覆传统认知，用最新化石证据还原恐龙真正的肤色、行为与那个嘈杂的、有羽毛的世界。</p>
+      <div class="card-meta">
+        <span>纪录片 / 史前</span>
+        <span>英国 / 美国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="孝感动天粤语" data-tags="粤语 亲情 年代剧 孝顺 港风" data-region="中国香港" data-category="classic">
+  <a href="./movie-1333.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./133.jpg" alt="孝感动天粤语" loading="lazy">
+      <span class="year-pill">1997</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>孝感动天粤语</h3>
+      <p>八十年代香港屋邨里，一个粗鲁的茶餐厅老板为了痴呆母亲，学会了织毛衣、唱粤曲和温柔。</p>
+      <div class="card-meta">
+        <span>家庭，剧情，年代</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="雅典大突击" data-tags="二战 纳粹 敢死队 经典" data-region="希腊" data-category="classic">
+  <a href="./movie-1372.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./22.jpg" alt="雅典大突击" loading="lazy">
+      <span class="year-pill">1967</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>雅典大突击</h3>
+      <p>二战末期，一支由小偷、诗人、数学家组成的杂牌军，奉命潜入被纳粹占领的雅典，偷走一份绝密文件。</p>
+      <div class="card-meta">
+        <span>战争, 动作, 冒险</span>
+        <span>希腊</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="纯真的年代" data-tags="知青 年代剧 虐恋 改革开放 怀旧" data-region="中国大陆" data-category="classic">
+  <a href="./movie-1381.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./31.jpg" alt="纯真的年代" loading="lazy">
+      <span class="year-pill">2022</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>纯真的年代</h3>
+      <p>三个知青在北大荒的冰雪中发誓相守一生，回城后却在商海沉浮中变成了最陌生的仇人。</p>
+      <div class="card-meta">
+        <span>年代, 爱情</span>
+        <span>中国大陆</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="悬崖上的小号" data-tags="中法合拍 聋哑少年 悬崖 治愈" data-region="中国内地 / 法国" data-category="classic">
+  <a href="./movie-1394.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./44.jpg" alt="悬崖上的小号" loading="lazy">
+      <span class="year-pill">2026</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>悬崖上的小号</h3>
+      <p>天生失聪的少年在福建土楼顶楼捡到一把生锈的小号，他用震动感知音乐，却吹响了整座山谷沉睡的亡魂。</p>
+      <div class="card-meta">
+        <span>剧情 / 音乐</span>
+        <span>中国内地 / 法国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="审死官粤语" data-tags="周星驰 无厘头 状师 打官司 经典喜剧" data-region="中国香港" data-category="classic">
+  <a href="./movie-1399.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./49.jpg" alt="审死官粤语" loading="lazy">
+      <span class="year-pill">1992</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>审死官粤语</h3>
+      <p>状师宋世杰为寡妇伸冤，却发现被告是自己的老婆，公堂之上为了活命他不得不指控妻子通奸。</p>
+      <div class="card-meta">
+        <span>喜剧, 古装</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="秘舞41" data-tags="竞技舞蹈 记忆控制 企业阴谋 女性抗争 身份反转" data-region="美国" data-category="classic">
+  <a href="./movie-1404.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./54.jpg" alt="秘舞41" loading="lazy">
+      <span class="year-pill">2041</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>秘舞41</h3>
+      <p>每位舞者都被迫在总决赛前跳出“第41步”，一旦舞偏一步便会忘记自己的人生经历，而主角借舞步当解码器，把整场选秀变成反…</p>
+      <div class="card-meta">
+        <span>科幻、舞台剧、惊悚</span>
+        <span>美国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="猫和老鼠在纽约" data-tags="经典重启 纽约 吵闹" data-region="美国" data-category="classic">
+  <a href="./movie-1418.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./68.jpg" alt="猫和老鼠在纽约" loading="lazy">
+      <span class="year-pill">2021</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>猫和老鼠在纽约</h3>
+      <p>汤姆和杰瑞的追逐战从乡村小屋一路打到了繁华的大苹果城——纽约。</p>
+      <div class="card-meta">
+        <span>喜剧, 动画</span>
+        <span>美国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="侠盗红狐狸" data-tags="怪盗 复仇 艺术品 巴黎 悬疑" data-region="法国" data-category="classic">
+  <a href="./movie-1425.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./75.jpg" alt="侠盗红狐狸" loading="lazy">
+      <span class="year-pill">2024</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>侠盗红狐狸</h3>
+      <p>巴黎最神秘的怪盗，每次作案都会留下一只红狐狸折纸，但她这次的目标不是名画，而是真相。</p>
+      <div class="card-meta">
+        <span>犯罪、冒险</span>
+        <span>法国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="小生梦惊魂粤语" data-tags="港片 发哥 梦境 搞笑 惊悚" data-region="中国香港" data-category="classic">
+  <a href="./movie-1431.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./81.jpg" alt="小生梦惊魂粤语" loading="lazy">
+      <span class="year-pill">1987</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>小生梦惊魂粤语</h3>
+      <p>一个郁郁不得志的龙套演员，突然能进入别人的梦境，却意外撞见当红小生的杀人秘密。</p>
+      <div class="card-meta">
+        <span>喜剧 / 奇幻 / 恐怖</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="断肠孤凤" data-tags="邵氏 女性复仇 悲剧美学 江湖恩怨 经典老片" data-region="中国香港" data-category="classic">
+  <a href="./movie-1442.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./92.jpg" alt="断肠孤凤" loading="lazy">
+      <span class="year-pill">1978</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>断肠孤凤</h3>
+      <p>新婚夜被灭门的娇弱新娘，被江湖第一剑客救下，却发现自己救的人正是灭门仇人的独子。</p>
+      <div class="card-meta">
+        <span>剧情 / 武侠 / 古装</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="梦之歌" data-tags="聋哑学校 合唱团 手语歌 真实事件改编" data-region="韩国" data-category="classic">
+  <a href="./movie-1451.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./101.jpg" alt="梦之歌" loading="lazy">
+      <span class="year-pill">2022</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>梦之歌</h3>
+      <p>一所聋哑学校要参加全国合唱比赛，评委说这不可能，他们却说：我们用眼唱，用心听。</p>
+      <div class="card-meta">
+        <span>剧情 / 音乐 / 青春</span>
+        <span>韩国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="莎乐美的七重纱" data-tags="舞蹈 欲望 圣经改编 女性凝视 艺术" data-region="英国" data-category="classic">
+  <a href="./movie-1456.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./106.jpg" alt="莎乐美的七重纱" loading="lazy">
+      <span class="year-pill">2024</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>莎乐美的七重纱</h3>
+      <p>一场用身体书写的复仇，七层纱落下时，不仅露出了肉体，还露出了整个父权的丑态。</p>
+      <div class="card-meta">
+        <span>剧情 / 情色 / 历史</span>
+        <span>英国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="桃李花歌" data-tags="盘索里 朝鲜王朝 师生 艺术传承" data-region="韩国" data-category="classic">
+  <a href="./movie-1468.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./118.jpg" alt="桃李花歌" loading="lazy">
+      <span class="year-pill">2025</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>桃李花歌</h3>
+      <p>1867年，朝鲜第一名伶被禁止登台，他把唱腔教给一个被卖为婢的女孩。</p>
+      <div class="card-meta">
+        <span>历史 / 剧情 / 音乐</span>
+        <span>韩国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="发现湾粤语" data-tags="粤语原声 海岛传说 家族诅咒" data-region="中国香港" data-category="classic">
+  <a href="./movie-1469.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./119.jpg" alt="发现湾粤语" loading="lazy">
+      <span class="year-pill">2025</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>发现湾粤语</h3>
+      <p>流浮山脚下的“发现湾”，每十五年就会有一个渔民失踪，而这次失踪者的女儿在调查中听到了海底传来的粤语童谣。</p>
+      <div class="card-meta">
+        <span>悬疑 / 奇幻 / 年代</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="中国有好菜 第二季" data-tags="地方风味 厨艺传承 田野寻味 厨房人情 乡土记忆" data-region="中国大陆" data-category="classic">
+  <a href="./movie-1474.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./124.jpg" alt="中国有好菜 第二季" loading="lazy">
+      <span class="year-pill">2024</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>中国有好菜 第二季</h3>
+      <p>第二季把镜头从餐桌推向田埂、海岸与山村，去追寻一道菜背后的人情、季节和土地真正的味道。</p>
+      <div class="card-meta">
+        <span>美食 / 纪录 / 文化</span>
+        <span>中国大陆</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="敬畏" data-tags="古典乐 师徒对抗 天才陨落 艺术信仰" data-region="法国" data-category="classic">
+  <a href="./movie-1491.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./141.jpg" alt="敬畏" loading="lazy">
+      <span class="year-pill">2024</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>敬畏</h3>
+      <p>一个被冠以“莫扎特再世”之名的钢琴神童，花了一辈子试图杀掉那个“天才的自己”。</p>
+      <div class="card-meta">
+        <span>剧情, 传记, 音乐</span>
+        <span>法国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="她的摇滚滋味" data-tags="女子乐队 独立音乐 中年危机 摇滚精神" data-region="中国大陆" data-category="classic">
+  <a href="./movie-1507.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./7.jpg" alt="她的摇滚滋味" loading="lazy">
+      <span class="year-pill">2026</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>她的摇滚滋味</h3>
+      <p>三个年过四十的女人——下岗女工、家庭主妇和退休教师，组建了一支朋克乐队，在菜市场首演。</p>
+      <div class="card-meta">
+        <span>音乐、青春、励志</span>
+        <span>中国大陆</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="劫数难逃粤语" data-tags="粤语对白 黑帮追债 失踪证人 反卧底 命运追击" data-region="中国香港" data-category="classic">
+  <a href="./movie-1521.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./21.jpg" alt="劫数难逃粤语" loading="lazy">
+      <span class="year-pill">2023</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>劫数难逃粤语</h3>
+      <p>一名被逼上绝路的追债员，在替黑帮找回失踪证人的那一夜，发现自己早已被写进别人的死局。</p>
+      <div class="card-meta">
+        <span>警匪, 犯罪, 悬疑</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="全面失控：得州音乐节悲剧" data-tags="真实事件改编 踩踏事故 行业黑幕 群像" data-region="美国" data-category="classic">
+  <a href="./movie-1539.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./39.jpg" alt="全面失控：得州音乐节悲剧" loading="lazy">
+      <span class="year-pill">2025</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>全面失控：得州音乐节悲剧</h3>
+      <p>一场本应狂欢的音乐节演变为数百人伤亡的人祸，是谁按下了失控的按钮？</p>
+      <div class="card-meta">
+        <span>犯罪 / 悬疑 / 社会</span>
+        <span>美国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 恶魔城第一季 欲燄香魂 猎人：死亡符文 银河系大排档 老婆大人粤语 舞之梦 小小车手 甜心情缘 詹姆斯法兰科的年少时代 鬼挡路6:终极审判 狐门秘事第二季 零度战姬 她爱他 燕山君 暖冬 非正式会谈第四季 天算不如人算 催化剂2025 约会恋爱究竟是什么 待客之道" data-tags="根据片名判断" data-region="根据片名判断" data-category="classic">
+  <a href="./movie-1548.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./48.jpg" alt="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 恶魔城第一季 欲燄香魂 猎人：死亡符文 银河系大排档 老婆大人粤语 舞之梦 小小车手 甜心情缘 詹姆斯法兰科的年少时代 鬼挡路6:终极审判 狐门秘事第二季 零度战姬 她爱他 燕山君 暖冬 非正式会谈第四季 天算不如人算 催化剂2025 约会恋爱究竟是什么 待客之道" loading="lazy">
+      <span class="year-pill">2024</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 恶魔城第一季 欲燄香魂 猎人：死亡符文 银河系大排档 老婆大人粤语 舞之梦 小小车手 甜心情缘 詹姆斯法兰科的年少时代 鬼挡路6:终极审判 狐门秘事第二季 零度战姬 她爱他 燕山君 暖冬 非正式会谈第四季 天算不如人算 催化剂2025 约会恋爱究竟是什么 待客之道</h3>
+      <p>（一句话剧情钩子，20~40 字左右，简洁但有记忆点）</p>
+      <div class="card-meta">
+        <span>根据片名判断</span>
+        <span>根据片名判断</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="勇敢说爱" data-tags="同性 乐队 口吃 双向暗恋" data-region="泰国" data-category="classic">
+  <a href="./movie-1555.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./55.jpg" alt="勇敢说爱" loading="lazy">
+      <span class="year-pill">2028</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>勇敢说爱</h3>
+      <p>患有口吃的吉他手，为了追求主唱，决定用写歌的方式来“说”出那些难以启齿的情话。</p>
+      <div class="card-meta">
+        <span>爱情 / 校园 / 音乐</span>
+        <span>泰国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="相棒第22季" data-tags="经典长寿 搭档 特命系 本格推理" data-region="日本" data-category="classic">
+  <a href="./movie-1575.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./75.jpg" alt="相棒第22季" loading="lazy">
+      <span class="year-pill">2023</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>相棒第22季</h3>
+      <p>杉下右京迎来第7任搭档，一桩旧案将两人牵扯进跨越二十年的复仇。</p>
+      <div class="card-meta">
+        <span>刑侦 / 悬疑</span>
+        <span>日本</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="卡比尔·辛格" data-tags="翻拍 疼痛文学 渣男" data-region="印度" data-category="classic">
+  <a href="./movie-1601.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./101.jpg" alt="卡比尔·辛格" loading="lazy">
+      <span class="year-pill">2024</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>卡比尔·辛格</h3>
+      <p>一个才华横溢但极度自毁的外科医生，在被女友分手后，将自己的人生过得像一场漫长的外科手术——精准而残酷。</p>
+      <div class="card-meta">
+        <span>剧情、爱情、音乐</span>
+        <span>印度</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="潮爆会馆" data-tags="街舞 粤语 传承 中年危机" data-region="中国香港" data-category="classic">
+  <a href="./movie-1613.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./113.jpg" alt="潮爆会馆" loading="lazy">
+      <span class="year-pill">2026</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>潮爆会馆</h3>
+      <p>90年代红极一时的香港街舞团“潮爆会馆”解散20年后，为还债被迫重聚参加广场舞大赛。</p>
+      <div class="card-meta">
+        <span>剧情 / 音乐</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="变形计第七季" data-tags="城乡互换 富二代 留守儿童 社会实验" data-region="中国大陆" data-category="classic">
+  <a href="./movie-1624.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./124.jpg" alt="变形计第七季" loading="lazy">
+      <span class="year-pill">2024</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>变形计第七季</h3>
+      <p>第七季首次引入“互换身份”升级版——城市叛逆富二代与农村尖子生互换三个月，且全程不知互换结束时间。</p>
+      <div class="card-meta">
+        <span>真人秀 / 社会</span>
+        <span>中国大陆</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="浪漫一生又何妨" data-tags="中年重逢 错过半生 港风怀旧" data-region="中国香港" data-category="classic">
+  <a href="./movie-1626.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./126.jpg" alt="浪漫一生又何妨" loading="lazy">
+      <span class="year-pill">1995</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>浪漫一生又何妨</h3>
+      <p>七十岁的他收到一封六十年前寄出的情书，决定带着它去找当年的她。</p>
+      <div class="card-meta">
+        <span>爱情文艺</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="山歌" data-tags="扶贫 支教 民歌 真实事件改编 情感" data-region="中国大陆" data-category="classic">
+  <a href="./movie-1627.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./127.jpg" alt="山歌" loading="lazy">
+      <span class="year-pill">2021</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>山歌</h3>
+      <p>从城市来的音乐老师走进贵州深山，发现这里的孩子从不说“爱”，但每首山歌里都藏着眼泪。</p>
+      <div class="card-meta">
+        <span>剧情，音乐，乡村</span>
+        <span>中国大陆</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="编制序曲：社区乐团的故事" data-tags="基层 群像 管弦乐 小人物 温暖" data-region="中国大陆" data-category="classic">
+  <a href="./movie-1650.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./150.jpg" alt="编制序曲：社区乐团的故事" loading="lazy">
+      <span class="year-pill">2025</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>编制序曲：社区乐团的故事</h3>
+      <p>城管、菜场大妈、考研落榜生组成的草台交响乐团，要在三个月后的全市汇演上演奏《自新大陆》。</p>
+      <div class="card-meta">
+        <span>剧情 / 音乐 / 励志</span>
+        <span>中国大陆</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="电锯惊魂4国语" data-tags="经典IP国语配音 密室逃脱 道德审判 血腥美学" data-region="中国大陆 (配音版)" data-category="classic">
+  <a href="./movie-1666.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./16.jpg" alt="电锯惊魂4国语" loading="lazy">
+      <span class="year-pill">2026</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>电锯惊魂4国语</h3>
+      <p>五个直播网红被关进一座废弃电视台，必须完成“收视率挑战”——每关不通过，就在直播中公开一种死法。</p>
+      <div class="card-meta">
+        <span>恐怖 / 惊悚</span>
+        <span>中国大陆 (配音版)</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="不覊的巴黎" data-tags="巴黎街头 自由漂泊 艺术追寻 即兴对白 旧城记忆 关系边界" data-region="法国" data-category="classic">
+  <a href="./movie-1691.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./41.jpg" alt="不覊的巴黎" loading="lazy">
+      <span class="year-pill">2018</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>不覊的巴黎</h3>
+      <p>一位拒绝稳定生活的街头画家，在巴黎的清晨与深夜之间游荡，直到遇见一个同样不肯被定义的人，才意识到自由也会有代价。</p>
+      <div class="card-meta">
+        <span>文艺 / 爱情 / 公路</span>
+        <span>法国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="爱你，安东叶尔钦" data-tags="纪念 演员 英年早逝 未公开影像 温情" data-region="美国" data-category="classic">
+  <a href="./movie-1702.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./52.jpg" alt="爱你，安东叶尔钦" loading="lazy">
+      <span class="year-pill">2025</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>爱你，安东叶尔钦</h3>
+      <p>已故演员安东·叶尔钦的日记、自拍与独白，拼凑出他短暂而炙热的一生。</p>
+      <div class="card-meta">
+        <span>纪录片、传记</span>
+        <span>美国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="我是冒险王2011" data-tags="寻宝 伪纪录片 公路" data-region="中国大陆" data-category="classic">
+  <a href="./movie-1711.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./61.jpg" alt="我是冒险王2011" loading="lazy">
+      <span class="year-pill">2011</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>我是冒险王2011</h3>
+      <p>一个自称冒险王的县城青年，扛着DV踏上寻找“野人”之旅，却意外撞破盗墓集团。</p>
+      <div class="card-meta">
+        <span>喜剧 / 冒险</span>
+        <span>中国大陆</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 神探科蓝 火线出击下 露西 独家腥闻 崩裂：毁灭杀阵 肉阵葬须眉 黑唇 夏日纪事 无声的世界 火线追凶之无罪辩护 炮灰 亲爱的患者：羁绊的病历簿 雷霆一击 截然不同的特拉维夫 导师 绝色淫妇 烈焰立拍得 离别七日情 小岛秀夫：连接世界 婢女" data-tags="根据片名判断" data-region="根据片名判断" data-category="classic">
+  <a href="./movie-1754.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./104.jpg" alt="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 神探科蓝 火线出击下 露西 独家腥闻 崩裂：毁灭杀阵 肉阵葬须眉 黑唇 夏日纪事 无声的世界 火线追凶之无罪辩护 炮灰 亲爱的患者：羁绊的病历簿 雷霆一击 截然不同的特拉维夫 导师 绝色淫妇 烈焰立拍得 离别七日情 小岛秀夫：连接世界 婢女" loading="lazy">
+      <span class="year-pill">2024</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 神探科蓝 火线出击下 露西 独家腥闻 崩裂：毁灭杀阵 肉阵葬须眉 黑唇 夏日纪事 无声的世界 火线追凶之无罪辩护 炮灰 亲爱的患者：羁绊的病历簿 雷霆一击 截然不同的特拉维夫 导师 绝色淫妇 烈焰立拍得 离别七日情 小岛秀夫：连接世界 婢女</h3>
+      <p>（一句话剧情钩子，20~40 字左右，简洁但有记忆点）</p>
+      <div class="card-meta">
+        <span>根据片名判断</span>
+        <span>根据片名判断</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="艺术空间" data-tags="当代艺术 密室心理 圈层黑话 高智商博弈" data-region="中国大陆" data-category="classic">
+  <a href="./movie-1758.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./108.jpg" alt="艺术空间" loading="lazy">
+      <span class="year-pill">2025</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>艺术空间</h3>
+      <p>一个假画贩子混进了顶级艺术家们的“避世山庄”，却发现每个人都在“创作”一个真实的谋杀。</p>
+      <div class="card-meta">
+        <span>剧情 / 悬疑</span>
+        <span>中国大陆</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="妙人妙事粤语" data-tags="粤语 单元剧 市井 温情 搞笑" data-region="中国香港" data-category="classic">
+  <a href="./movie-1776.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./126.jpg" alt="妙人妙事粤语" loading="lazy">
+      <span class="year-pill">2023</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>妙人妙事粤语</h3>
+      <p>深水埗一栋旧楼里，五个住户每晚在楼道里用粤语俚语吐槽各自的人生破事。</p>
+      <div class="card-meta">
+        <span>喜剧、生活、都市</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="哭泣少女乐队" data-tags="摇滚 少女 友情 泪水 成长" data-region="日本" data-category="classic">
+  <a href="./movie-1782.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./132.jpg" alt="哭泣少女乐队" loading="lazy">
+      <span class="year-pill">2024</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>哭泣少女乐队</h3>
+      <p>五个各自背负着伤痛的女孩组成乐队，她们的音乐必须由泪水来调和才能奏效。</p>
+      <div class="card-meta">
+        <span>音乐青春</span>
+        <span>日本</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="声入人心第一季" data-tags="美声 音乐剧 神仙打架" data-region="中国大陆" data-category="classic">
+  <a href="./movie-1832.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./32.jpg" alt="声入人心第一季" loading="lazy">
+      <span class="year-pill">2024</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>声入人心第一季</h3>
+      <p>三十六位美声男歌手同台竞技，没有淘汰，只有首席与替补的残酷席位更迭。</p>
+      <div class="card-meta">
+        <span>音乐 / 真人秀</span>
+        <span>中国大陆</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="青春的园地" data-tags="怀旧 劳动光荣 成长" data-region="中国大陆" data-category="classic">
+  <a href="./movie-1835.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./35.jpg" alt="青春的园地" loading="lazy">
+      <span class="year-pill">1962</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>青春的园地</h3>
+      <p>暑假里，一群城市少年把一片废弃的荒地改造成社区花园，却意外挖出了埋藏多年的秘密。</p>
+      <div class="card-meta">
+        <span>剧情、家庭</span>
+        <span>中国大陆</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="乌龙捕快粤语" data-tags="粤语 衙门 误会 反差搭档 破案 市井" data-region="中国香港" data-category="classic">
+  <a href="./movie-1843.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./43.jpg" alt="乌龙捕快粤语" loading="lazy">
+      <span class="year-pill">1997</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>乌龙捕快粤语</h3>
+      <p>一个嘴快手慢的小捕快误打误撞屡破奇案，却总在升官前一刻把自己送进更大的麻烦里。</p>
+      <div class="card-meta">
+        <span>古装 / 喜剧 / 侦探</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="贴着你心跳" data-tags="音乐 听障 暗恋 治愈 高中" data-region="中国台湾" data-category="classic">
+  <a href="./movie-1845.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./45.jpg" alt="贴着你心跳" loading="lazy">
+      <span class="year-pill">2025</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>贴着你心跳</h3>
+      <p>一个听不见声音的孤独少女，通过感受对方心跳的振动来“听”音乐，并爱上了一个同样孤独的钢琴少年。</p>
+      <div class="card-meta">
+        <span>爱情 / 剧情 / 音乐</span>
+        <span>中国台湾</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="摇摆名画" data-tags="艺术 盗窃 智斗 黑色幽默" data-region="英国" data-category="classic">
+  <a href="./movie-1854.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./54.jpg" alt="摇摆名画" loading="lazy">
+      <span class="year-pill">2023</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>摇摆名画</h3>
+      <p>一幅价值连城的画作每次展出都会莫名“摇晃”，直到有人发现画中人物的眼睛在追踪观众。</p>
+      <div class="card-meta">
+        <span>悬疑</span>
+        <span>英国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="表错7日情国语" data-tags="出轨 幽默 都市 经典 轻松" data-region="中国香港" data-category="classic">
+  <a href="./movie-1857.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./57.jpg" alt="表错7日情国语" loading="lazy">
+      <span class="year-pill">1983</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>表错7日情国语</h3>
+      <p>丈夫请保镖监视出轨的妻子，没想到保镖和妻子假戏真做，而丈夫也爱上了妻子的闺蜜。</p>
+      <div class="card-meta">
+        <span>喜剧, 爱情</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="丁丁历险记第三季" data-tags="经典改编 环球冒险 解谜 狗队友" data-region="法国 / 比利时" data-category="classic">
+  <a href="./movie-1867.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./67.jpg" alt="丁丁历险记第三季" loading="lazy">
+      <span class="year-pill">2025</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>丁丁历险记第三季</h3>
+      <p>丁丁收到一封来自百年前海盗的加密羊皮信，信中指向一个能改变航海史的惊天秘密。</p>
+      <div class="card-meta">
+        <span>冒险, 悬疑</span>
+        <span>法国 / 比利时</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="卡祖扎：时间永不停止" data-tags="爵士乐 冷战历史 传奇乐手 档案影像 自由" data-region="波兰" data-category="classic">
+  <a href="./movie-1868.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./68.jpg" alt="卡祖扎：时间永不停止" loading="lazy">
+      <span class="year-pill">2025</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>卡祖扎：时间永不停止</h3>
+      <p>波兰最神秘的爵士乐手卡祖扎，生前拒绝留下任何录音，本片用他散落的书信和旁人的记忆拼凑出他的声音。</p>
+      <div class="card-meta">
+        <span>纪录片 / 音乐 / 传记</span>
+        <span>波兰</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="白山新歌" data-tags="东北民歌 非物质文化遗产 代际和解 乡村教师" data-region="中国大陆" data-category="classic">
+  <a href="./movie-1882.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./82.jpg" alt="白山新歌" loading="lazy">
+      <span class="year-pill">2025</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>白山新歌</h3>
+      <p>即将被撤并的山村小学里，一本手抄民歌集让叛逆少年和固执老教师从对抗走向了生死守护。</p>
+      <div class="card-meta">
+        <span>剧情 / 音乐</span>
+        <span>中国大陆</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="名剑风流粤语" data-tags="新派武侠 权谋 浪子 官场江湖 粤语原声" data-region="中国香港" data-category="classic">
+  <a href="./movie-1896.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./96.jpg" alt="名剑风流粤语" loading="lazy">
+      <span class="year-pill">2023</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>名剑风流粤语</h3>
+      <p>一把会“唱歌”的魔剑，让朝廷钦犯和锦衣卫指挥使的身份在一个人身上重叠。</p>
+      <div class="card-meta">
+        <span>武侠古装</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="堕落天使粤语" data-tags="宿命 卧底 霓虹美学" data-region="中国香港" data-category="classic">
+  <a href="./movie-1899.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./99.jpg" alt="堕落天使粤语" loading="lazy">
+      <span class="year-pill">2026</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>堕落天使粤语</h3>
+      <p>一名游走于黑白两道、只说粤语的堕落天使，在最后一次暗杀任务中，发现目标竟是失散多年的挚爱。</p>
+      <div class="card-meta">
+        <span>犯罪，爱情</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="女优的告白" data-tags="演艺圈内幕 女性觉醒 伪纪录片 戏中戏 大尺度" data-region="日本" data-category="classic">
+  <a href="./movie-1907.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./107.jpg" alt="女优的告白" loading="lazy">
+      <span class="year-pill">2015</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>女优的告白</h3>
+      <p>过气女优在回忆录中揭开演艺圈残酷黑幕，却发现执笔人正是她当年抛弃的私生女。</p>
+      <div class="card-meta">
+        <span>剧情，传记，伦理</span>
+        <span>日本</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="动物成长" data-tags="动物 幼崽 生存 BBC风格" data-region="英国" data-category="classic">
+  <a href="./movie-1913.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./113.jpg" alt="动物成长" loading="lazy">
+      <span class="year-pill">2024</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>动物成长</h3>
+      <p>从北极熊到小丑鱼，记录五种动物幼崽在出生后第一年面对的天敌、气候与饥饿。</p>
+      <div class="card-meta">
+        <span>自然, 成长, 纪录片</span>
+        <span>英国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="爱乐骑士" data-tags="音乐剧 中世纪 摇滚 穿越" data-region="法国" data-category="classic">
+  <a href="./movie-1930.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./130.jpg" alt="爱乐骑士" loading="lazy">
+      <span class="year-pill">2027</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>爱乐骑士</h3>
+      <p>落魄的摇滚歌手穿越回中世纪，必须用一首重金属改编的《欢乐颂》赢得比武大会。</p>
+      <div class="card-meta">
+        <span>歌舞 / 爱情</span>
+        <span>法国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="空房间2017" data-tags="幽灵 租房 偷窥 都市孤独 经典改编" data-region="韩国" data-category="classic">
+  <a href="./movie-1932.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./132.jpg" alt="空房间2017" loading="lazy">
+      <span class="year-pill">2024</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>空房间2017</h3>
+      <p>他住进一间凶宅，发现只要关上灯，就能看到上一个房客留下的“生活重播”。</p>
+      <div class="card-meta">
+        <span>悬疑 / 爱情 / 惊悚</span>
+        <span>韩国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="情泪心声" data-tags="怀旧 失明 作曲 虐恋 经典" data-region="中国香港" data-category="classic">
+  <a href="./movie-1935.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./135.jpg" alt="情泪心声" loading="lazy">
+      <span class="year-pill">1998</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>情泪心声</h3>
+      <p>天才盲人作曲家与当红女歌手的禁忌之恋，直到手术前一刻他才知道那首成名作写的是自己。</p>
+      <div class="card-meta">
+        <span>剧情, 爱情, 音乐</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="清秀佳人第三部" data-tags="经典续作 安妮 爱德华王子岛 中年困境 世代传承" data-region="加拿大" data-category="classic">
+  <a href="./movie-1937.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./137.jpg" alt="清秀佳人第三部" loading="lazy">
+      <span class="year-pill">2024</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>清秀佳人第三部</h3>
+      <p>安妮已是四个孩子的母亲，当战火从欧洲蔓延到加拿大，她必须学会放手让下一代飞向各自的人生。</p>
+      <div class="card-meta">
+        <span>剧情，家庭</span>
+        <span>加拿大</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="披荆斩棘·海尔之夜" data-tags="哥哥 家电主题 跨界舞台 情怀杀" data-region="中国大陆" data-category="classic">
+  <a href="./movie-1945.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./145.jpg" alt="披荆斩棘·海尔之夜" loading="lazy">
+      <span class="year-pill">2024</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>披荆斩棘·海尔之夜</h3>
+      <p>30位哥哥入住海尔智慧家电之家，每期用一件家电为主题创作跨界舞台，争夺“家电之王”。</p>
+      <div class="card-meta">
+        <span>真人秀, 竞技, 音乐</span>
+        <span>中国大陆</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="甜密密" data-tags="甜品 怀旧 错过 味觉记忆 都市童话" data-region="中国香港" data-category="classic">
+  <a href="./movie-1951.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./1.jpg" alt="甜密密" loading="lazy">
+      <span class="year-pill">2005</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>甜密密</h3>
+      <p>香港最后一家手工糖果店的学徒，发现自己做的每一颗太妃糖，都能让吃到的人回忆起最刻骨铭心的一段恋情。</p>
+      <div class="card-meta">
+        <span>爱情 / 剧情 / 美食</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="伊凡的冒险生活" data-tags="穿越时空 苏联怀旧 改变命运" data-region="俄罗斯" data-category="classic">
+  <a href="./movie-1968.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./18.jpg" alt="伊凡的冒险生活" loading="lazy">
+      <span class="year-pill">2019</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>伊凡的冒险生活</h3>
+      <p>生活在莫斯科的落魄程序员伊凡无意间发现了祖父留下的老式收音机，竟能联系上1985年年轻的祖父，并试图指导祖父发财改变…</p>
+      <div class="card-meta">
+        <span>剧情 / 喜剧 / 奇幻</span>
+        <span>俄罗斯</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="鸟人1984" data-tags="越战创伤 精神病院 幻想与现实 经典改编" data-region="美国" data-category="classic">
+  <a href="./movie-1985.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./35.jpg" alt="鸟人1984" loading="lazy">
+      <span class="year-pill">1984</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>鸟人1984</h3>
+      <p>越战老兵坚信自己是鸟，他的好友尝试用各种极端方式，将他的精神从天空拉回地面。</p>
+      <div class="card-meta">
+        <span>剧情 / 战争 / 心理</span>
+        <span>美国</span>
+      </div>
+    </div>
+  </a>
+</article> <article class="movie-card" data-filter-card data-title="辣手迷途2001" data-tags="怀旧千禧年 卧底 黑帮 兄弟情 暴力美学" data-region="中国香港" data-category="classic">
+  <a href="./movie-1993.html" class="movie-card-link">
+    <div class="poster-wrap">
+      <img src="./43.jpg" alt="辣手迷途2001" loading="lazy">
+      <span class="year-pill">2026</span>
+      <span class="play-mark" aria-hidden="true">▶</span>
+      <div class="poster-gradient"></div>
+    </div>
+    <div class="card-body">
+      <h3>辣手迷途2001</h3>
+      <p>2001年的香港，一名卧底警察在黑帮中越陷越深，当任务即将结束时，他发现自己更想做个真正的古惑仔。</p>
+      <div class="card-meta">
+        <span>动作, 犯罪, 剧情</span>
+        <span>中国香港</span>
+      </div>
+    </div>
+  </a>
+</article>
+          </div>
+          <div class="no-results" data-no-results>暂无匹配影片</div>
+        </div>
+      </section>
+    </main>
+      <footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <a class="footer-brand" href="./index.html">精选电影</a>
+      <p>高分、热门和经典影片合集，按类型片单浏览更多精彩内容。</p>
+    </div>
+    <nav class="footer-links" aria-label="底部导航">
+      <a href="./index.html">首页</a>
+      <a href="./categories.html">分类</a>
+      <a href="./ranking.html">榜单</a>
+      <a href="./category-drama.html">剧情精选</a><a href="./category-comedy.html">喜剧电影</a><a href="./category-action.html">动作冒险</a><a href="./category-romance.html">爱情情感</a><a href="./category-suspense.html">悬疑犯罪</a><a href="./category-scifi.html">科幻灾难</a>
+    </nav>
+  </div>
+</footer>
+      <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+    </body>
+    </html>
